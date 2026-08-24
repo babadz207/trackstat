@@ -1,111 +1,110 @@
-local _0x3KG_K1 = 216
-local _0x3KG_K2 = 102
+local _0x3KG_K1 = 153
+local _0x3KG_K2 = 14
 local _0x3KG_BYTES = {
-  {238,210,223,199,219,204,205},
-  {236,219,206,210,215,221,223,202,219,218,237,202,209,204,223,217,219},
-  {246,202,202,206,237,219,204,200,215,221,219},
-  {131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131},
-  {229,234,204,223,221,213,237,202,223,202,158,238,237,135,135,227,158,247,208,215,202,215,223,210,215,196,215,208,217,158,237,202,223,202,158,234,204,223,221,213,219,204,158,216,209,204,158},
-  {235,208,213,208,209,201,208},
-  {202,223,220,210,219},
-  {143,140,141,138,139,136,137,134,135},
-  {218,219,216,223,203,210,202},
-  {229,234,204,223,221,213,237,202,223,202,158,238,237,135,135,158,251,236,236,241,236,227,158,235,205,219,204,158,245,219,199,158,215,205,158,211,215,205,205,215,208,217,158,209,204,158,215,208,200,223,210,215,218,158,215,208,158,225,249,144,253,209,208,216,215,217,159},
-  {226,208,226,208,229,234,236,255,253,245,237,234,255,234,158,238,237,135,135,158,251,236,236,241,236,227,226,208,92,36,30,81,6,49,158,252,95,4,31,208,158,221,214,120,14,223,158,208,214,95,4,19,206,158,235,205,219,204,158,245,219,199,158,221,125,31,158,208,214,125,28,208,159,226,208,232,203,215,158,210,125,12,208,217,158,221,209,206,199,158,211,125,29,158,122,47,215,158,213,125,22,211,158,245,219,199,158,221,95,5,25,223,158,220,95,4,31,208,158,202,95,5,21,158,233,219,220,158,250,223,205,214,220,209,223,204,218,144,226,208},
-  {214,202,202,206,205,132,145,145,202,204,223,221,213,205,202,223,202,144,220,223,213,215,214,203,220,144,205,215,202,219,145,206,205,135,135,145,223,206,215},
-  {238,253,147,142,143},
-  {229,234,204,223,221,213,237,202,223,202,158,238,237,135,135,227,158,237,219,204,200,219,204,158,235,236,242,132,158},
-  {229,234,204,223,221,213,237,202,223,202,158,238,237,135,135,227,158,238,253,158,240,223,211,219,132,158},
-  {216,203,208,221,202,215,209,208},
-  {238,241,237,234},
-  {223,206,206,210,215,221,223,202,215,209,208,145,212,205,209,208},
-  {240,209,209,220},
-  {252,219,217,215,208,208,219,204},
-  {236,209,209,213,215,219},
-  {255,218,200,219,208,202,203,204,219,204},
-  {251,198,206,219,204,215,219,208,221,219,218},
-  {238,204,209},
-  {251,210,215,202,219},
-  {251,198,206,219,204,202},
-  {243,223,205,202,219,204},
-  {242,219,217,219,208,218},
-  {253,214,223,211,206,215,209,208},
-  {237,203,206,219,204,205,202,223,204},
-  {249,203,223,204,218,215,223,208},
-  {234,215,202,223,208},
-  {237,219,208,202,215,208,219,210},
-  {232,223,208,217,203,223,204,218},
-  {253,204,203,205,223,218,219,204},
-  {253,209,208,207,203,219,204,209,204},
-  {243,209,208,223,204,221,214},
-  {255,205,221,219,208,218,223,208,202},
-  {255,201,223,213,219,208,219,218},
-  {255,204,221,214,215,202,219,221,202},
-  {232,215,205,215,209,208,223,204,199},
-  {238,204,209,218,215,217,199},
-  {237,219,219,204},
-  {253,219,210,219,205,202,215,223,210},
-  {255,206,219,198},
-  {241,204,223,221,210,219},
-  {232,209,215,218,220,209,204,208},
-  {253,209,205,211,215,221},
-  {250,219,211,215,217,209,218},
-  {243,199,202,214,215,221},
-  {236,219,223,210,211,210,209,204,218},
-  {255,208,221,215,219,208,202},
-  {243,199,202,214,213,219,219,206,219,204},
-  {237,209,203,210,216,209,204,217,219},
-  {237,202,223,204,220,204,219,223,213,219,204},
-  {234,215,211,219,213,219,219,206,219,204},
-  {245,215,208,217,211,223,213,219,204},
-  {246,219,204,223,210,218},
-  {242,215,220,204,223,204,199},
-  {253,210,215,219,208,202},
-  {237,223,200,219},
-  {250,215,204,219,221,202,209,204,199},
-  {210,219,223,218,219,204,205,202,223,202,205},
-  {218,215,223,211,209,208,218},
-  {217,219,211},
-  {236,223,208,213,158},
-  {228,209,208,219,158,143},
-  {208,203,211,220,219,204},
-  {205,202,204,215,208,217},
-  {150,155,218,149,151},
-  {228,209,208,219,158},
-  {240,209,208,219},
-  {251,208,221,214,223,208,202},
-  {238,209,202,215,209,208},
-  {248,204,203,215,202},
-  {253,203,204,204,219,208,221,199},
-  {253,209,208,205,203,211,223,220,210,219},
-  {253,223,204,218},
-  {253,214,223,204,211},
-  {242,209,209,202,220,209,198},
-  {252,209,198},
-  {243,215,205,221},
-  {155,218,149},
-  {249,209,210,218,219,208},
-  {236,223,215,208,220,209,201},
-  {240,209,204,211,223,210},
-  {214,202,202,206,205,132,145,145,201,201,201,144,204,209,220,210,209,198,144,221,209,211,145,234,214,203,211,220,205,145,255,205,205,219,202,144,223,205,214,198,129,201,215,218,202,214,131,143,139,142,152,214,219,215,217,214,202,131,143,139,142,152,223,205,205,219,202,247,218,131},
-  {217,223,204,217,223,208,202,203,223,208},
-  {202,215,202,223,208,215,221},
-  {214,203,217,219},
-  {238,219,202},
-  {229,234,204,223,221,213,237,202,223,202,158,238,237,135,135,158,251,236,236,241,236,227,158,248,223,215,210,219,218,158,202,209,158,221,209,210,210,219,221,202,158,238,237,135,135,158,205,202,223,202,205,159},
-  {229,234,204,223,221,213,237,202,223,202,158,238,237,135,135,227,158,237,199,208,221,215,208,217,144,144,144,158,250,215,223,211,209,208,218,205,132,158},
-  {158,194,158,243,223,198,158,228,209,208,219,132,158},
-  {158,194,158,236,223,208,213,132,158},
-  {158,150},
-  {145},
-  {151},
-  {145,205,202,223,202,205,145,205,199,208,221},
-  {253,209,208,202,219,208,202,147,234,199,206,219},
-  {230,147,255,238,247,147,245,219,199},
-  {230,147,235,205,219,204,147,245,219,199},
-  {229,234,204,223,221,213,237,202,223,202,158,238,237,135,135,158,237,235,253,253,251,237,237,227,158,250,223,202,223,158,205,199,208,221,219,218,158,202,209,158,205,219,204,200,219,204,158,205,203,221,221,219,205,205,216,203,210,210,199,159},
-  {229,234,204,223,221,213,237,202,223,202,158,238,237,135,135,158,233,255,236,240,227,158,248,223,215,210,219,218,158,202,209,158,205,199,208,221,158,218,223,202,223,158,202,209,158,205,219,204,200,219,204,144},
-  {229,234,204,223,221,213,237,202,223,202,158,238,237,135,135,158,236,251,255,250,231,227,158,251,198,206,209,204,202,219,204,158,215,205,158,223,221,202,215,200,219,158,152,158,205,199,208,221,215,208,217,158,219,200,219,204,199,158,143,139,205,159}
+  {199,251,246,238,242,229,228},
+  {197,242,231,251,254,244,246,227,242,243,196,227,248,229,246,240,242},
+  {223,227,227,231,196,242,229,225,254,244,242},
+  {170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170},
+  {204,195,229,246,244,252,196,227,246,227,183,199,196,174,174,202,183,222,249,254,227,254,246,251,254,237,254,249,240,183,196,227,246,227,183,195,229,246,244,252,242,229,183,241,248,229,183},
+  {194,249,252,249,248,224,249},
+  {227,246,245,251,242},
+  {166,165,164,163,162,161,160,175,174},
+  {243,242,241,246,226,251,227},
+  {204,195,229,246,244,252,196,227,246,227,183,199,196,174,174,183,210,197,197,216,197,202,183,194,228,242,229,183,220,242,238,183,254,228,183,250,254,228,228,254,249,240,183,248,229,183,254,249,225,246,251,254,243,183,254,249,183,200,208,185,212,248,249,241,254,240,182},
+  {203,249,203,249,204,195,197,214,212,220,196,195,214,195,183,199,196,174,174,183,210,197,197,216,197,202,203,249,117,13,55,120,47,24,183,213,118,45,54,249,183,244,255,81,39,246,183,249,255,118,45,58,231,183,194,228,242,229,183,220,242,238,183,244,84,54,183,249,255,84,53,249,182,203,249,193,226,254,183,251,84,37,249,240,183,244,248,231,238,183,250,84,52,183,83,6,254,183,252,84,63,250,183,220,242,238,183,244,118,44,48,246,183,245,118,45,54,249,183,227,118,44,60,183,192,242,245,183,211,246,228,255,245,248,246,229,243,185,203,249},
+  {255,227,227,231,228,173,184,184,227,229,246,244,252,228,227,246,227,185,245,246,252,254,255,226,245,185,228,254,227,242,184,231,228,174,174,184,246,231,254},
+  {199,212,186,167,166},
+  {204,195,229,246,244,252,196,227,246,227,183,199,196,174,174,202,183,196,242,229,225,242,229,183,194,197,219,173,183},
+  {204,195,229,246,244,252,196,227,246,227,183,199,196,174,174,202,183,199,212,183,217,246,250,242,173,183},
+  {241,226,249,244,227,254,248,249},
+  {199,216,196,195},
+  {246,231,231,251,254,244,246,227,254,248,249,184,253,228,248,249},
+  {217,248,248,245},
+  {213,242,240,254,249,249,242,229},
+  {197,248,248,252,254,242},
+  {214,243,225,242,249,227,226,229,242,229},
+  {210,239,231,242,229,254,242,249,244,242,243},
+  {199,229,248},
+  {210,251,254,227,242},
+  {210,239,231,242,229,227},
+  {218,246,228,227,242,229},
+  {219,242,240,242,249,243},
+  {212,255,246,250,231,254,248,249},
+  {196,226,231,242,229,228,227,246,229},
+  {208,226,246,229,243,254,246,249},
+  {195,254,227,246,249},
+  {196,242,249,227,254,249,242,251},
+  {193,246,249,240,226,246,229,243},
+  {212,229,226,228,246,243,242,229},
+  {212,248,249,230,226,242,229,248,229},
+  {218,248,249,246,229,244,255},
+  {214,228,244,242,249,243,246,249,227},
+  {214,224,246,252,242,249,242,243},
+  {214,229,244,255,254,227,242,244,227},
+  {193,254,228,254,248,249,246,229,238},
+  {199,229,248,243,254,240,238},
+  {196,242,242,229},
+  {212,242,251,242,228,227,254,246,251},
+  {214,231,242,239},
+  {216,229,246,244,251,242},
+  {193,248,254,243,245,248,229,249},
+  {212,248,228,250,254,244},
+  {211,242,250,254,240,248,243},
+  {218,238,227,255,254,244},
+  {197,242,246,251,250,251,248,229,243},
+  {214,249,244,254,242,249,227},
+  {218,238,227,255,252,242,242,231,242,229},
+  {196,248,226,251,241,248,229,240,242},
+  {196,227,246,229,245,229,242,246,252,242,229},
+  {195,254,250,242,252,242,242,231,242,229},
+  {220,254,249,240,250,246,252,242,229},
+  {223,242,229,246,251,243},
+  {219,254,245,229,246,229,238},
+  {212,251,254,242,249,227},
+  {196,246,225,242},
+  {211,254,229,242,244,227,248,229,238},
+  {251,242,246,243,242,229,228,227,246,227,228},
+  {243,254,246,250,248,249,243},
+  {240,242,250},
+  {197,246,249,252,183},
+  {196,231,246,224,249},
+  {249,226,250,245,242,229},
+  {205,248,249,242,183},
+  {217,248,249,242},
+  {210,249,244,255,246,249,227},
+  {199,248,227,254,248,249},
+  {209,229,226,254,227},
+  {212,226,229,229,242,249,244,238},
+  {212,248,249,228,226,250,246,245,251,242},
+  {212,246,229,243},
+  {212,255,246,229,250},
+  {219,248,248,227,245,248,239},
+  {213,248,239},
+  {218,254,228,244},
+  {228,227,229,254,249,240},
+  {178,243,188},
+  {208,248,251,243,242,249},
+  {197,246,254,249,245,248,224},
+  {217,248,229,250,246,251},
+  {255,227,227,231,228,173,184,184,224,224,224,185,229,248,245,251,248,239,185,244,248,250,184,195,255,226,250,245,228,184,214,228,228,242,227,185,246,228,255,239,168,224,254,243,227,255,170,166,162,167,177,255,242,254,240,255,227,170,166,162,167,177,246,228,228,242,227,222,243,170},
+  {240,246,229,240,246,249,227,226,246,249},
+  {227,254,227,246,249,254,244},
+  {255,226,240,242},
+  {199,242,227},
+  {204,195,229,246,244,252,196,227,246,227,183,199,196,174,174,183,210,197,197,216,197,202,183,209,246,254,251,242,243,183,227,248,183,244,248,251,251,242,244,227,183,199,196,174,174,183,228,227,246,227,228,182},
+  {204,195,229,246,244,252,196,227,246,227,183,199,196,174,174,202,183,196,238,249,244,254,249,240,185,185,185,183,211,254,246,250,248,249,243,228,173,183},
+  {183,235,183,218,246,239,183,205,248,249,242,173,183},
+  {183,235,183,197,246,249,252,173,183},
+  {183,191},
+  {184},
+  {190},
+  {184,228,227,246,227,228,184,228,238,249,244},
+  {212,248,249,227,242,249,227,186,195,238,231,242},
+  {207,186,214,199,222,186,220,242,238},
+  {207,186,194,228,242,229,186,220,242,238},
+  {204,195,229,246,244,252,196,227,246,227,183,199,196,174,174,183,196,194,212,212,210,196,196,202,183,211,246,227,246,183,228,238,249,244,242,243,183,227,248,183,228,242,229,225,242,229,183,228,226,244,244,242,228,228,241,226,251,251,238,182},
+  {204,195,229,246,244,252,196,227,246,227,183,199,196,174,174,183,192,214,197,217,202,183,209,246,254,251,242,243,183,227,248,183,228,238,249,244,183,243,246,227,246,183,227,248,183,228,242,229,225,242,229,185},
+  {204,195,229,246,244,252,196,227,246,227,183,199,196,174,174,183,197,210,214,211,206,202,183,210,239,231,248,229,227,242,229,183,254,228,183,246,244,227,254,225,242,183,177,183,228,238,249,244,254,249,240,183,242,225,242,229,238,183,166,162,228,182}
 }
 local _0xSYS_char = string.char
 local _0xSYS_concat = table.concat
@@ -246,40 +245,37 @@ local function collectPs99Stats()
     local rebirths = tonumber(data.Rebirths) or 0
     local eggsHatched = tonumber(data.EggHatches or data.EggsHatched) or 0
     local playTimeHours = math.floor((tonumber(data.Age) or 0) / 3600)
-    local maxZoneNum = 1
-    local maxZoneDisplay = _0x3KG_STR[67]
+    local maxUnlockedZoneNum = 1
+    local maxUnlockedZoneName = _0x3KG_STR[67]
     pcall(function()
-        local function parseNum(val)
-            if not val then return nil end
-            if type(val) == _0x3KG_STR[68] then return val end
-            if type(val) == _0x3KG_STR[69] then
-                return tonumber(val:match(_0x3KG_STR[70]))
-            end
-            return nil
-        end
-        local directZ = parseNum(data.MaxZone) or parseNum(data.MaxUnlockedZone) or parseNum(data.MaxArea) or parseNum(data.MaxUnlockedArea) or parseNum(data.Zone) or parseNum(data.Area)
-        if directZ and directZ > maxZoneNum then
-            maxZoneNum = directZ
-        end
-        local function checkTable(tbl)
-            if type(tbl) == _0x3KG_STR[7] then
-                for k, v in pairs(tbl) do
-                    local nK = parseNum(k)
-                    local nV = parseNum(v)
-                    if nK and nK > maxZoneNum then maxZoneNum = nK end
-                    if nV and nV > maxZoneNum then maxZoneNum = nV end
+        if data and data.UnlockedZones and Directory and Directory.Zones then
+            for zoneName, isUnlocked in pairs(data.UnlockedZones) do
+                if isUnlocked then
+                    local zObj = SafeGetDirectoryObj(Directory.Zones, zoneName)
+                    if zObj then
+                        local zNum = tonumber(zObj.ZoneNumber or zObj.Number or 0) or 0
+                        if zNum > maxUnlockedZoneNum then
+                            maxUnlockedZoneNum = zNum
+                            maxUnlockedZoneName = tostring(zoneName)
+                        end
+                    elseif type(zoneName) == _0x3KG_STR[68] or tonumber(zoneName) then
+                        local zNum = tonumber(zoneName)
+                        if zNum > maxUnlockedZoneNum and zNum <= 300 then
+                            maxUnlockedZoneNum = zNum
+                        end
+                    end
                 end
             end
         end
-        checkTable(data.UnlockedZones)
-        checkTable(data.UnlockedAreas)
-        checkTable(data.Zones)
-        checkTable(data.Areas)
-        if maxZoneNum > 1 then
-            maxZoneDisplay = _0x3KG_STR[71] .. tostring(maxZoneNum)
+        if maxUnlockedZoneNum == 1 and data and data.LastZoneBoughtEggs and Directory and Directory.Zones then
+            local zObj = SafeGetDirectoryObj(Directory.Zones, data.LastZoneBoughtEggs)
+            if zObj then
+                maxUnlockedZoneNum = tonumber(zObj.ZoneNumber or zObj.Number or 279) or 279
+                maxUnlockedZoneName = tostring(data.LastZoneBoughtEggs)
+            end
         end
     end)
-    local currentZone = maxZoneDisplay
+    local currentZone = _0x3KG_STR[69] .. tostring(maxUnlockedZoneNum)
     local starsEarned = 0
     pcall(function()
         if type(data.Stars) == _0x3KG_STR[68] then
@@ -330,7 +326,7 @@ local function collectPs99Stats()
         MaxEggHatchSlots = 15 + (tonumber(data.EggSlotsPurchased) or 70),
         EggSlotsPurchased = tonumber(data.EggSlotsPurchased) or 70,
         MaxEnchantSlots = tonumber(data.MaxEnchantsEquipped) or 5,
-        EquippedUltimate = tostring(data.EquippedUltimateId or _0x3KG_STR[72])
+        EquippedUltimate = tostring(data.EquippedUltimateId or _0x3KG_STR[70])
     }
     local ownedHugeList = {}
     local ownedTitanicList = {}
@@ -352,15 +348,15 @@ local function collectPs99Stats()
         local obj = nil
         pcall(function()
             if Directory then
-                if rawCategory == _0x3KG_STR[73] then obj = SafeGetDirectoryObj(Directory.Enchants, id)
-                elseif rawCategory == _0x3KG_STR[74] then obj = SafeGetDirectoryObj(Directory.Potions, id)
-                elseif rawCategory == _0x3KG_STR[75] then obj = SafeGetDirectoryObj(Directory.Fruits, id)
-                elseif rawCategory == _0x3KG_STR[76] then obj = SafeGetDirectoryObj(Directory.Currency, id)
-                elseif rawCategory == _0x3KG_STR[77] then obj = SafeGetDirectoryObj(Directory.Consumables, id)
-                elseif rawCategory == _0x3KG_STR[78] then obj = SafeGetDirectoryObj(Directory.CardItems, id)
-                elseif rawCategory == _0x3KG_STR[79] then obj = SafeGetDirectoryObj(Directory.Charms, id)
-                elseif rawCategory == _0x3KG_STR[80] or rawCategory == _0x3KG_STR[81] then obj = SafeGetDirectoryObj(Directory.Lootboxes, id) or SafeGetDirectoryObj(Directory.Boxes, id)
-                elseif rawCategory == _0x3KG_STR[82] then obj = SafeGetDirectoryObj(Directory.MiscItems, id)
+                if rawCategory == _0x3KG_STR[71] then obj = SafeGetDirectoryObj(Directory.Enchants, id)
+                elseif rawCategory == _0x3KG_STR[72] then obj = SafeGetDirectoryObj(Directory.Potions, id)
+                elseif rawCategory == _0x3KG_STR[73] then obj = SafeGetDirectoryObj(Directory.Fruits, id)
+                elseif rawCategory == _0x3KG_STR[74] then obj = SafeGetDirectoryObj(Directory.Currency, id)
+                elseif rawCategory == _0x3KG_STR[75] then obj = SafeGetDirectoryObj(Directory.Consumables, id)
+                elseif rawCategory == _0x3KG_STR[76] then obj = SafeGetDirectoryObj(Directory.CardItems, id)
+                elseif rawCategory == _0x3KG_STR[77] then obj = SafeGetDirectoryObj(Directory.Charms, id)
+                elseif rawCategory == _0x3KG_STR[78] or rawCategory == _0x3KG_STR[79] then obj = SafeGetDirectoryObj(Directory.Lootboxes, id) or SafeGetDirectoryObj(Directory.Boxes, id)
+                elseif rawCategory == _0x3KG_STR[80] then obj = SafeGetDirectoryObj(Directory.MiscItems, id)
                 end
                 if not obj then
                     obj = SafeGetDirectoryObj(Directory.Consumables, id) or SafeGetDirectoryObj(Directory.MiscItems, id) or SafeGetDirectoryObj(Directory.Enchants, id) or SafeGetDirectoryObj(Directory.Potions, id)
@@ -374,9 +370,9 @@ local function collectPs99Stats()
                 icon = icon(tier or 1)
             end)
         end
-        if type(icon) == _0x3KG_STR[69] or type(icon) == _0x3KG_STR[68] then
+        if type(icon) == _0x3KG_STR[81] or type(icon) == _0x3KG_STR[68] then
             local str = tostring(icon)
-            local assetId = string.match(str, _0x3KG_STR[83])
+            local assetId = string.match(str, _0x3KG_STR[82])
             if assetId then
                 return assetId
             end
@@ -388,7 +384,7 @@ local function collectPs99Stats()
             local id = tostring(petData.id or _0x3KG_STR[6])
             local lowerId = id:lower()
             local amount = tonumber(petData._am or petData.Amount) or 1
-            local typeName = petData.pt == 1 and _0x3KG_STR[84] or (petData.pt == 2 and _0x3KG_STR[85] or _0x3KG_STR[86])
+            local typeName = petData.pt == 1 and _0x3KG_STR[83] or (petData.pt == 2 and _0x3KG_STR[84] or _0x3KG_STR[85])
             local isShiny = petData.sh and true or false
             local isEquipped = petData.eq and true or false
             local petAssetId = nil
@@ -396,7 +392,7 @@ local function collectPs99Stats()
                 if Directory and Directory.Pets and Directory.Pets[id] then
                     local pObj = Directory.Pets[id]
                     local rawIcon = pObj.Thumbnail or pObj.Icon or pObj.Image
-                    petAssetId = rawIcon and string.match(tostring(rawIcon), _0x3KG_STR[83])
+                    petAssetId = rawIcon and string.match(tostring(rawIcon), _0x3KG_STR[82])
                 end
             end)
             local entry = {
@@ -407,18 +403,18 @@ local function collectPs99Stats()
                 Amount = amount,
                 Equipped = isEquipped,
                 IconAssetId = petAssetId,
-                IconUrl = petAssetId and (_0x3KG_STR[87] .. petAssetId) or nil
+                IconUrl = petAssetId and (_0x3KG_STR[86] .. petAssetId) or nil
             }
             if isEquipped then
                 table.insert(equippedPetsList, entry)
             end
-            if string.find(lowerId, _0x3KG_STR[88]) then
+            if string.find(lowerId, _0x3KG_STR[87]) then
                 gargantuanCount = gargantuanCount + amount
                 table.insert(ownedGargantuanList, entry)
-            elseif string.find(lowerId, _0x3KG_STR[89]) then
+            elseif string.find(lowerId, _0x3KG_STR[88]) then
                 titanicCount = titanicCount + amount
                 table.insert(ownedTitanicList, entry)
-            elseif string.find(lowerId, _0x3KG_STR[90]) then
+            elseif string.find(lowerId, _0x3KG_STR[89]) then
                 hugeCount = hugeCount + amount
                 table.insert(ownedHugeList, entry)
             end
@@ -427,7 +423,7 @@ local function collectPs99Stats()
     local categorizedItems = {}
     if data.Inventory then
         for categoryName, categoryData in pairs(data.Inventory) do
-            if type(categoryData) == _0x3KG_STR[7] and categoryName ~= _0x3KG_STR[91] then
+            if type(categoryData) == _0x3KG_STR[7] and categoryName ~= _0x3KG_STR[90] then
                 local categoryItems = {}
                 for uuid, item in pairs(categoryData) do
                     if type(item) == _0x3KG_STR[7] and item.id then
@@ -442,7 +438,7 @@ local function collectPs99Stats()
                             Amount = amount,
                             Category = categoryName,
                             IconAssetId = assetId,
-                            IconUrl = assetId and (_0x3KG_STR[87] .. assetId) or nil
+                            IconUrl = assetId and (_0x3KG_STR[86] .. assetId) or nil
                         })
                     end
                 end
@@ -480,24 +476,24 @@ end
 local function sendPs99Sync()
     local ok, stats = pcall(collectPs99Stats)
     if not ok or not stats then
-        print(_0x3KG_STR[92])
+        print(_0x3KG_STR[91])
         return
     end
-    print(_0x3KG_STR[93] .. tostring(stats.diamonds) .. _0x3KG_STR[94] .. tostring(stats.area) .. _0x3KG_STR[95] .. tostring(stats.rank) .. _0x3KG_STR[96] .. tostring(stats.currentStars) .. _0x3KG_STR[97] .. tostring(stats.totalStars) .. _0x3KG_STR[98])
+    print(_0x3KG_STR[92] .. tostring(stats.diamonds) .. _0x3KG_STR[93] .. tostring(stats.area) .. _0x3KG_STR[94] .. tostring(stats.rank) .. _0x3KG_STR[95] .. tostring(stats.currentStars) .. _0x3KG_STR[96] .. tostring(stats.totalStars) .. _0x3KG_STR[97])
     local success, response = safeHttpRequest({
-        Url = SERVER_URL .. _0x3KG_STR[99],
+        Url = SERVER_URL .. _0x3KG_STR[98],
         Method = _0x3KG_STR[17],
         Headers = {
-            [_0x3KG_STR[100]] = _0x3KG_STR[18],
-            [_0x3KG_STR[101]] = API_KEY,
-            [_0x3KG_STR[102]] = API_KEY
+            [_0x3KG_STR[99]] = _0x3KG_STR[18],
+            [_0x3KG_STR[100]] = API_KEY,
+            [_0x3KG_STR[101]] = API_KEY
         },
         Body = HttpService:JSONEncode({ player = stats, gameId = tostring(game.PlaceId) })
     })
     if success then
-        print(_0x3KG_STR[103])
+        print(_0x3KG_STR[102])
     else
-        print(_0x3KG_STR[104])
+        print(_0x3KG_STR[103])
     end
 end
 task.spawn(function()
@@ -509,5 +505,5 @@ task.spawn(function()
         pcall(sendPs99Sync)
     end
 end)
-print(_0x3KG_STR[105])
+print(_0x3KG_STR[104])
 print(_0x3KG_STR[4])
