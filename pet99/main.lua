@@ -1,35 +1,94 @@
-local _0x3KG_K1 = 139
-local _0x3KG_K2 = 45
+local _0x3KG_K1 = 126
+local _0x3KG_K2 = 80
 local _0x3KG_BYTES = {
-  {246,202,199,223,195,212,213},
-  {244,195,214,202,207,197,199,210,195,194,245,210,201,212,199,193,195},
-  {238,210,210,214,245,195,212,208,207,197,195},
-  {210,199,196,202,195},
-  {151,148,149,146,147,144,145,158,159},
-  {194,195,192,199,211,202,210},
-  {250,200,250,200,253,242,244,231,229,237,245,242,231,242,134,246,245,159,159,134,227,244,244,233,244,251,250,200,68,60,6,73,30,41,134,228,71,28,7,200,134,197,206,96,22,199,134,200,206,71,28,11,214,134,243,213,195,212,134,237,195,223,134,197,101,7,134,200,206,101,4,200,135,250,200,240,211,207,134,202,101,20,200,193,134,197,201,214,223,134,203,101,5,134,98,55,207,134,205,101,14,203,134,237,195,223,134,197,71,29,1,199,134,196,71,28,7,200,134,210,71,29,13,134,241,195,196,134,226,199,213,206,196,201,199,212,194,136,250,200},
-  {206,210,210,214,213,156,137,137,210,212,199,197,205,213,210,199,210,136,196,199,205,207,206,211,196,136,213,207,210,195,137,214,213,159,159,137,199,214,207},
-  {246,229,139,150,151},
-  {192,211,200,197,210,207,201,200},
-  {246,233,245,242},
-  {199,214,214,202,207,197,199,210,207,201,200,137,204,213,201,200},
-  {137,208,195,212,207,192,223,139,205,195,223,153,205,195,223,155},
-  {225,227,242},
-  {229,201,200,210,195,200,210,139,242,223,214,195},
-  {254,139,231,246,239,139,237,195,223},
-  {254,139,243,213,195,212,139,237,195,223},
-  {237,195,223,134,246,245,159,159,134,205,206,101,18,200,193,134,206,71,29,5,214,134,202,71,29,33,134,206,201,71,28,17,197,134,98,55,101,5,134,196,71,29,45,134,205,206,101,21,199,135},
-  {150},
-  {252,201,200,195,134,151},
-  {234,207,196,212,199,212,223},
-  {229,202,207,195,200,210},
-  {245,199,208,195},
-  {206,211,193,195},
-  {210,207,210,199,200,207,197},
-  {202,195,199,194,195,212,213,210,199,210,213},
-  {226,207,199,203,201,200,194,213},
-  {225,195,203,213},
-  {137,213,210,199,210,213,137,213,223,200,197}
+  {126,66,79,87,75,92,93},
+  {124,75,94,66,71,77,79,90,75,74,125,90,65,92,79,73,75},
+  {102,90,90,94,125,75,92,88,71,77,75},
+  {90,79,76,66,75},
+  {31,28,29,26,27,24,25,22,23},
+  {74,75,72,79,91,66,90},
+  {114,64,114,64,117,122,124,111,109,101,125,122,111,122,14,126,125,23,23,14,107,124,124,97,124,115,114,64,204,180,142,193,150,161,14,108,207,148,143,64,14,77,70,232,158,79,14,64,70,207,148,131,94,14,123,93,75,92,14,101,75,87,14,77,237,143,14,64,70,237,140,64,15,114,64,120,91,71,14,66,237,156,64,73,14,77,65,94,87,14,67,237,141,14,234,191,71,14,69,237,134,67,14,101,75,87,14,77,207,149,137,79,14,76,207,148,143,64,14,90,207,149,133,14,121,75,76,14,106,79,93,70,76,65,79,92,74,0,114,64},
+  {70,90,90,94,93,20,1,1,90,92,79,77,69,93,90,79,90,0,76,79,69,71,70,91,76,0,93,71,90,75,1,94,93,23,23,1,79,94,71},
+  {126,109,3,30,31},
+  {72,91,64,77,90,71,65,64},
+  {126,97,125,122},
+  {79,94,94,66,71,77,79,90,71,65,64,1,68,93,65,64},
+  {1,88,75,92,71,72,87,3,69,75,87,17,69,75,87,19},
+  {105,107,122},
+  {109,65,64,90,75,64,90,3,122,87,94,75},
+  {118,3,111,126,103,3,101,75,87},
+  {118,3,123,93,75,92,3,101,75,87},
+  {101,75,87,14,126,125,23,23,14,69,70,237,154,64,73,14,70,207,149,141,94,14,66,207,149,169,14,70,65,207,148,153,77,14,234,191,237,141,14,76,207,149,165,14,69,70,237,157,79,15},
+  {96,65,65,76},
+  {108,75,73,71,64,64,75,92},
+  {124,65,65,69,71,75},
+  {111,74,88,75,64,90,91,92,75,92},
+  {107,86,94,75,92,71,75,64,77,75,74},
+  {126,92,65},
+  {107,66,71,90,75},
+  {107,86,94,75,92,90},
+  {99,79,93,90,75,92},
+  {98,75,73,75,64,74},
+  {109,70,79,67,94,71,65,64},
+  {125,91,94,75,92,93,90,79,92},
+  {105,91,79,92,74,71,79,64},
+  {122,71,90,79,64},
+  {125,75,64,90,71,64,75,66},
+  {120,79,64,73,91,79,92,74},
+  {109,92,91,93,79,74,75,92},
+  {109,65,64,95,91,75,92,65,92},
+  {99,65,64,79,92,77,70},
+  {111,93,77,75,64,74,79,64,90},
+  {111,89,79,69,75,64,75,74},
+  {111,92,77,70,71,90,75,77,90},
+  {120,71,93,71,65,64,79,92,87},
+  {126,92,65,74,71,73,87},
+  {125,75,75,92},
+  {109,75,66,75,93,90,71,79,66},
+  {111,94,75,86},
+  {97,92,79,77,66,75},
+  {120,65,71,74,76,65,92,64},
+  {109,65,93,67,71,77},
+  {106,75,67,71,73,65,74},
+  {99,87,90,70,71,77},
+  {124,75,79,66,67,66,65,92,74},
+  {111,64,77,71,75,64,90},
+  {99,87,90,70,69,75,75,94,75,92},
+  {125,65,91,66,72,65,92,73,75},
+  {125,90,79,92,76,92,75,79,69,75,92},
+  {122,71,67,75,69,75,75,94,75,92},
+  {101,71,64,73,67,79,69,75,92},
+  {102,75,92,79,66,74},
+  {98,71,76,92,79,92,87},
+  {109,66,71,75,64,90},
+  {125,79,88,75},
+  {106,71,92,75,77,90,65,92,87},
+  {66,75,79,74,75,92,93,90,79,90,93},
+  {74,71,79,67,65,64,74},
+  {73,75,67},
+  {124,79,64,69,14},
+  {96,65,64,75},
+  {123,64,69,64,65,89,64},
+  {105,65,66,74,75,64},
+  {124,79,71,64,76,65,89},
+  {96,65,92,67,79,66},
+  {70,91,73,75},
+  {90,71,90,79,64,71,77},
+  {126,75,90},
+  {69,75,87},
+  {70,79,66,72},
+  {94,79,92,90},
+  {73,71,72,90},
+  {94,92,75,93,75,64,90},
+  {76,91,64,74,66,75},
+  {98,65,65,90,76,65,86},
+  {104,92,91,71,90},
+  {72,92,91,71,90},
+  {72,66,79,73},
+  {77,79,92,74},
+  {109,79,92,74},
+  {75,64,77,70,79,64,90},
+  {1,93,90,79,90,93,1,93,87,64,77}
 }
 local _0xSYS_char = string.char
 local _0xSYS_concat = table.concat
@@ -143,45 +202,141 @@ local function verifyKeyWithServer()
     return true
 end
 if not verifyKeyWithServer() then return end
+local RankTitleByNumber = {
+    [1] = _0x3KG_STR[19], [2] = _0x3KG_STR[20], [3] = _0x3KG_STR[21], [4] = _0x3KG_STR[22], [5] = _0x3KG_STR[23],
+    [6] = _0x3KG_STR[24], [7] = _0x3KG_STR[25], [8] = _0x3KG_STR[26], [9] = _0x3KG_STR[27], [10] = _0x3KG_STR[28],
+    [11] = _0x3KG_STR[29], [12] = _0x3KG_STR[30], [13] = _0x3KG_STR[31], [14] = _0x3KG_STR[32], [15] = _0x3KG_STR[33],
+    [16] = _0x3KG_STR[34], [17] = _0x3KG_STR[35], [18] = _0x3KG_STR[36], [19] = _0x3KG_STR[37], [20] = _0x3KG_STR[38],
+    [21] = _0x3KG_STR[39], [22] = _0x3KG_STR[40], [23] = _0x3KG_STR[41], [24] = _0x3KG_STR[42], [25] = _0x3KG_STR[43],
+    [26] = _0x3KG_STR[44], [27] = _0x3KG_STR[45], [28] = _0x3KG_STR[46], [29] = _0x3KG_STR[47], [30] = _0x3KG_STR[48],
+    [31] = _0x3KG_STR[49], [32] = _0x3KG_STR[50], [33] = _0x3KG_STR[51], [34] = _0x3KG_STR[52], [35] = _0x3KG_STR[53],
+    [36] = _0x3KG_STR[54], [37] = _0x3KG_STR[55], [38] = _0x3KG_STR[56], [39] = _0x3KG_STR[57], [40] = _0x3KG_STR[58]
+}
 local function collectPs99Stats()
-    local diamonds = 0
-    local coins = _0x3KG_STR[19]
-    local rank = 1
-    local rebirth = 0
-    local area = _0x3KG_STR[20]
-    local hugePets = 0
-    local titanicPets = 0
-    local eggsHatched = 0
-    local inventory = {}
+    local data = nil
+    local Directory = nil
     pcall(function()
-        local saveModule = ReplicatedStorage:FindFirstChild(_0x3KG_STR[21]) and ReplicatedStorage.Library:FindFirstChild(_0x3KG_STR[22]) and ReplicatedStorage.Library.Client:FindFirstChild(_0x3KG_STR[23])
-        if saveModule then
-            local Save = require(saveModule)
-            local saveData = Save.Get()
-            if saveData then
-                diamonds = tonumber(saveData.Diamonds) or 0
-                rebirth = tonumber(saveData.Rebirths) or 0
-                rank = tonumber(saveData.Rank) or 1
-                eggsHatched = tonumber(saveData.EggsHatched) or 0
-                if saveData.Inventory and saveData.Inventory.Pet then
-                    for _, petData in pairs(saveData.Inventory.Pet) do
-                        local id = tostring(petData.id or ""):lower()
-                        if string.find(id, _0x3KG_STR[24]) then
-                            hugePets = hugePets + (tonumber(petData._am) or 1)
-                        elseif string.find(id, _0x3KG_STR[25]) then
-                            titanicPets = titanicPets + (tonumber(petData._am) or 1)
+        if ReplicatedStorage:FindFirstChild(_0x3KG_STR[59]) and ReplicatedStorage.Library:FindFirstChild(_0x3KG_STR[60]) then
+            local saveModule = ReplicatedStorage.Library.Client:FindFirstChild(_0x3KG_STR[61])
+            if saveModule then
+                local Save = require(saveModule)
+                data = Save.Get()
+            end
+            local dirModule = ReplicatedStorage.Library:FindFirstChild(_0x3KG_STR[62])
+            if dirModule then
+                Directory = require(dirModule)
+            end
+        end
+    end)
+    if not data then data = {} end
+    local diamonds = 0
+    pcall(function()
+        if LocalPlayer:FindFirstChild(_0x3KG_STR[63]) then
+            for _, child in ipairs(LocalPlayer.leaderstats:GetChildren()) do
+                if string.find(child.Name:lower(), _0x3KG_STR[64]) or string.find(child.Name:lower(), _0x3KG_STR[65]) then
+                    diamonds = tonumber(child.Value) or 0
+                end
+            end
+        end
+        if diamonds == 0 and data.Diamonds then
+            diamonds = tonumber(data.Diamonds) or 0
+        end
+    end)
+    local rankNum = tonumber(data.Rank) or 1
+    local rankTitle = RankTitleByNumber[rankNum] or _0x3KG_STR[66] .. tostring(rankNum)
+    local rebirths = tonumber(data.Rebirths) or 0
+    local eggsHatched = tonumber(data.EggHatches or data.EggsHatched) or 0
+    local playTimeHours = math.floor((tonumber(data.Age) or 0) / 3600)
+    local slotsInfo = {
+        MaxPetSlots = tonumber(data.MaxPetsEquipped) or 75,
+        PetSlotsPurchased = tonumber(data.PetSlotsPurchased) or 71,
+        MaxEggHatchSlots = 15 + (tonumber(data.EggSlotsPurchased) or 70),
+        EggSlotsPurchased = tonumber(data.EggSlotsPurchased) or 70,
+        MaxEnchantSlots = tonumber(data.MaxEnchantsEquipped) or 5,
+        EquippedUltimate = tostring(data.EquippedUltimateId or _0x3KG_STR[67])
+    }
+    local ownedHugeList = {}
+    local ownedTitanicList = {}
+    local hugeCount = 0
+    local titanicCount = 0
+    if data.Inventory and data.Inventory.Pet then
+        for uuid, petData in pairs(data.Inventory.Pet) do
+            local id = tostring(petData.id or _0x3KG_STR[68])
+            local lowerId = id:lower()
+            local amount = tonumber(petData._am or petData.Amount) or 1
+            local typeName = petData.pt == 1 and _0x3KG_STR[69] or (petData.pt == 2 and _0x3KG_STR[70] or _0x3KG_STR[71])
+            local isShiny = petData.sh and true or false
+            if string.find(lowerId, _0x3KG_STR[72]) then
+                hugeCount = hugeCount + amount
+                table.insert(ownedHugeList, {
+                    UUID = tostring(uuid),
+                    ID = id,
+                    Type = typeName,
+                    Shiny = isShiny,
+                    Amount = amount
+                })
+            elseif string.find(lowerId, _0x3KG_STR[73]) then
+                titanicCount = titanicCount + amount
+                table.insert(ownedTitanicList, {
+                    UUID = tostring(uuid),
+                    ID = id,
+                    Type = typeName,
+                    Shiny = isShiny,
+                    Amount = amount
+                })
+            end
+        end
+    end
+    local categorizedItems = {
+        KeysCombined = {},
+        KeyParts = {},
+        GiftsAndPresents = {},
+        Flags = {},
+        Cards = {},
+        Fruits = {},
+        Consumables = {}
+    }
+    if data.Inventory then
+        for category, categoryData in pairs(data.Inventory) do
+            if type(categoryData) == _0x3KG_STR[4] and category ~= _0x3KG_STR[74] then
+                for uuid, item in pairs(categoryData) do
+                    if type(item) == _0x3KG_STR[4] and item.id then
+                        local id = tostring(item.id)
+                        local lowerId = id:lower()
+                        local amount = tonumber(item._am or item.Amount) or 1
+                        local tier = item.tn or item.Tier
+                        local entry = { ID = id, Tier = tier, Amount = amount, Category = category }
+                        if string.find(lowerId, _0x3KG_STR[75]) then
+                            if string.find(lowerId, _0x3KG_STR[76]) or string.find(lowerId, _0x3KG_STR[77]) then
+                                table.insert(categorizedItems.KeyParts, entry)
+                            else
+                                table.insert(categorizedItems.KeysCombined, entry)
+                            end
+                        elseif string.find(lowerId, _0x3KG_STR[78]) or string.find(lowerId, _0x3KG_STR[79]) or string.find(lowerId, _0x3KG_STR[80]) or category == _0x3KG_STR[81] then
+                            table.insert(categorizedItems.GiftsAndPresents, entry)
+                        elseif category == _0x3KG_STR[82] or string.find(lowerId, _0x3KG_STR[83]) then
+                            table.insert(categorizedItems.Fruits, entry)
+                        elseif string.find(lowerId, _0x3KG_STR[84]) then
+                            table.insert(categorizedItems.Flags, entry)
+                        elseif string.find(lowerId, _0x3KG_STR[85]) or category == _0x3KG_STR[86] or string.find(lowerId, _0x3KG_STR[87]) then
+                            table.insert(categorizedItems.Cards, entry)
+                        else
+                            table.insert(categorizedItems.Consumables, entry)
                         end
-                        table.insert(inventory, { id = petData.id, amount = petData._am or 1 })
                     end
                 end
             end
         end
-    end)
-    if diamonds == 0 then
-        local ls = LocalPlayer:FindFirstChild(_0x3KG_STR[26])
-        if ls then
-            local dObj = ls:FindFirstChild(_0x3KG_STR[27]) or ls:FindFirstChild(_0x3KG_STR[28])
-            if dObj then diamonds = tonumber(dObj.Value) or 0 end
+    end
+    local activeBuffs = {}
+    if data.Buffs then
+        for buffName, buffData in pairs(data.Buffs) do
+            if type(buffData) == _0x3KG_STR[4] then
+                activeBuffs[tostring(buffName)] = {
+                    RemainingSeconds = math.floor(tonumber(buffData.remaining) or 0),
+                    RemainingHours = math.floor((tonumber(buffData.remaining) or 0) / 3600)
+                }
+            end
         end
     end
     return {
@@ -191,14 +346,18 @@ local function collectPs99Stats()
         pcName = PC_NAME,
         userKey = API_KEY,
         diamonds = diamonds,
-        coins = tostring(coins),
-        rank = rank,
-        rebirth = rebirth,
-        area = area,
-        hugePets = hugePets,
-        titanicPets = titanicPets,
+        rank = rankNum,
+        rankTitle = rankTitle,
+        rebirth = rebirths,
         eggsHatched = eggsHatched,
-        inventory = inventory,
+        playTimeHours = playTimeHours,
+        slots = slotsInfo,
+        hugePets = hugeCount,
+        titanicPets = titanicCount,
+        ownedHugeList = ownedHugeList,
+        ownedTitanicList = ownedTitanicList,
+        categorizedItems = categorizedItems,
+        activeBuffs = activeBuffs,
         timestamp = os.time()
     }
 end
@@ -206,7 +365,7 @@ local function sendPs99Sync()
     local ok, stats = pcall(collectPs99Stats)
     if not ok or not stats then return end
     safeHttpRequest({
-        Url = SERVER_URL .. _0x3KG_STR[29],
+        Url = SERVER_URL .. _0x3KG_STR[88],
         Method = _0x3KG_STR[11],
         Headers = {
             [_0x3KG_STR[15]] = _0x3KG_STR[12],
