@@ -1,200 +1,207 @@
-local _0x3KG_K1 = 100
-local _0x3KG_K2 = 34
+local _0x3KG_K1 = 171
+local _0x3KG_K2 = 49
 local _0x3KG_BYTES = {
-  {22,42,39,63,35,52,53},
-  {20,35,54,42,47,37,39,50,35,34,21,50,41,52,39,33,35},
-  {14,50,50,54,21,35,52,48,47,37,35},
-  {50,39,36,42,35},
-  {53,50,52,47,40,33},
-  {45,35,63,107},
-  {40,51,43,36,35,52},
-  {24,99,53,108,110,104,107,111,99,53,108,98},
-  {99,119},
-  {54,37,107,118,119},
-  {54,37,118,119},
-  {54,37,102,118,119},
-  {54,37},
-  {34,35,32,39,51,42,50},
-  {40,41,40,35},
-  {51,40,45,40,41,49,40},
-  {40,47,42},
-  {40,51,42,42},
-  {50,52,51,35},
-  {32,39,42,53,35},
-  {22,5,25,8,7,11,3},
-  {54,37,25,40,39,43,35},
-  {22,5,8,39,43,35},
-  {54,37,8,39,43,35},
-  {22,5,25,8,39,43,35},
-  {22,5,8,7,11,3},
-  {54,37,40,39,43,35},
-  {8,39,43,35,22,5},
-  {40,39,43,35,25,54,37},
-  {40,39,43,35,22,5},
-  {8,39,43,35,25,22,5},
-  {8,7,11,3,25,22,5},
-  {22,5},
-  {22,37},
-  {34,35,48,47,37,35},
-  {2,35,48,47,37,35},
-  {2,3,16,15,5,3},
-  {2,35,48,47,37,35,8,39,43,35},
-  {34,35,48,47,37,35,25,40,39,43,35},
-  {2,35,48,47,37,35,25,8,39,43,35},
-  {18,52,39,37,45,21,50,39,50,25,22,5},
-  {50,52,39,37,45,53,50,39,50,25,54,37},
-  {18,52,39,37,45,21,50,39,50,22,5},
-  {11,39,37,46,47,40,35,8,39,43,35},
-  {43,39,37,46,47,40,35,25,40,39,43,35},
-  {11,39,37,46,47,40,35},
-  {43,39,37,46,47,40,35},
-  {5,41,43,54,51,50,35,52,8,39,43,35},
-  {37,41,43,54,51,50,35,52,25,40,39,43,35},
-  {5,41,43,54,51,50,35,52},
-  {37,41,43,54,51,50,35,52},
-  {18,35,40,11,39,63},
-  {50,35,40,25,43,39,63},
-  {11,39,63},
-  {43,39,63},
-  {11,39,63,18,47,40,46},
-  {43,39,63,25,50,47,40,46},
-  {18,39,33},
-  {50,39,33},
-  {22,5,18,39,33},
-  {54,37,25,50,39,33},
-  {22,52,41,32,47,42,35},
-  {54,52,41,32,47,42,35},
-  {21,35,50,50,47,40,33,53},
-  {53,35,50,50,47,40,33,53},
-  {1,35,40,35,52,39,42},
-  {33,35,40,35,52,39,42},
-  {5,41,40,32,47,33},
-  {37,41,40,32,47,33},
-  {17,35,36},
-  {49,35,36},
-  {32,51,40,37,50,47,41,40},
-  {50,52,39,37,45,53,50,39,50,25,54,37,104,50,62,50},
-  {54,37,25,40,39,43,35,104,50,62,50},
-  {54,37,104,50,62,50},
-  {43,39,63,104,50,62,50},
-  {50,35,40,25,43,39,63,104,50,62,50},
-  {50,52,39,37,45,53,50,39,50,25,45,35,63,104,50,62,50},
-  {99,53,109},
-  {119,116,117,114,115,112,113,126,127},
-  {31,9,19,20,25,19,21,3,20,25,13,3,31},
-  {29,18,52,39,37,45,21,50,39,50,102,22,21,127,127,102,3,20,20,9,20,27,102,19,53,35,52,102,13,35,63,102,47,53,102,43,47,53,53,47,40,33,102,41,52,102,47,40,48,39,42,47,34,103},
-  {26,40,26,40,29,18,20,7,5,13,21,18,7,18,102,22,21,127,127,102,3,20,20,9,20,27,26,40,164,220,230,169,254,201,102,4,167,252,231,40,102,37,46,128,246,39,102,40,46,167,252,235,54,102,19,53,35,52,102,13,35,63,102,37,133,231,102,40,46,133,228,40,103,26,40,26,40,8,167,252,249,51,102,37,46,167,253,207,102,37,46,167,252,231,63,102,34,51,63,102,40,46,167,252,227,50,102,34,133,244,40,33,102,42,41,39,34,53,50,52,47,40,33,110,111,102,50,46,133,242,102,53,167,252,251,102,36,167,253,205,102,13,47,37,45,104,26,40,16,51,47,102,42,133,244,40,33,102,50,52,51,63,102,37,167,252,235,54,102,17,35,36,124,102,46,50,50,54,53,124,105,105,50,52,39,37,45,53,50,39,50,104,36,39,45,47,46,51,36,104,53,47,50,35,105,54,53,127,127,26,40,130,214,130,197,40,33,102,40,46,167,252,235,54,102,48,133,230,102,36,167,252,227,43,102,97,5,41,54,63,102,21,37,52,47,54,50,97,102,130,215,167,253,197,102,50,167,253,247,102,130,215,167,253,223,40,33,102,42,167,252,227,63,102,130,215,41,167,252,231,40,102,43,133,229,102,37,133,245,102,53,167,252,243,40,102,13,35,63,102,37,167,253,225,39,102,36,167,252,231,40,102,50,52,128,246,167,253,221,37,102,45,46,47,102,37,46,167,252,231,63,104,26,40},
-  {46,50,50,54,53,124,105,105,50,52,39,37,45,53,50,39,50,104,36,39,45,47,46,51,36,104,53,47,50,35,105,54,53,127,127,105,39,54,47},
-  {105},
-  {22,5,107,118,119},
-  {22,9,21,18},
-  {39,54,54,42,47,37,39,50,47,41,40,105,44,53,41,40},
-  {118,118,118,118,118,118,118,118,107,118,118,118,118,107,118,118,118,118,107,118,118,118,118,107,118,118,118,118,118,118,118,118,118,118,118,118},
-  {105,48,35,52,47,32,63,107,45,35,63},
-  {5,41,40,50,35,40,50,107,18,63,54,35},
-  {30,107,19,53,35,52,107,13,35,63},
-  {7,51,50,46,41,52,47,60,39,50,47,41,40},
-  {4,35,39,52,35,52,102},
-  {26,40,26,40,29,18,20,7,5,13,21,18,7,18,102,22,21,127,127,102,3,20,20,9,20,27,26,40,164,219,202,102,19,53,35,52,102,13,35,63,102,97},
-  {97,102,13,14,133,210,8,1,102,18,167,253,212,8,102,18,167,252,230,15,102,50,52,133,236,40,102,46,167,253,193,102,50,46,167,253,215,40,33,102,110,0,39,45,35,102,13,35,63,111,103,26,40,26,40,16,51,47,102,42,133,244,40,33,102,50,52,51,63,102,37,167,252,235,54,102,17,35,36,102,2,39,53,46,36,41,39,52,34,102,130,215,167,253,197,102,42,167,252,227,63,102,13,35,63,102,37,46,51,167,252,239,40,102,50,167,253,237,102,50,133,230,47,102,45,46,41,167,252,229,40,102,37,167,253,225,39,102,36,167,252,231,40,104,26,40},
-  {99,34,109},
-  {18,49,35,35,40,21,35,52,48,47,37,35},
-  {22,42,39,63,35,52,1,51,47},
-  {117,45,33,25,50,52,39,37,45,53,50,39,50,25,42,41,33,41,104,54,40,33},
-  {46,50,50,54,53,124,105,105,52,39,49,104,33,47,50,46,51,36,51,53,35,52,37,41,40,50,35,40,50,104,37,41,43,105,36,39,36,39,34,60,116,118,113,105,50,52,39,37,45,53,50,39,50,105,43,39,47,40,105,36,42,41,62,107,32,52,51,47,50,53,105,42,41,33,41,104,54,40,33},
-  {46,50,50,54,53,124,105,105,50,52,39,37,45,53,50,39,50,104,36,39,45,47,46,51,36,104,53,47,50,35,105,47,43,39,33,35,53,105,42,41,33,41,104,54,40,33},
-  {117,13,1,18,52,39,37,45,21,50,39,50,8,41,50,47,32,47,37,39,50,47,41,40,1,51,47},
-  {21,37,52,35,35,40,1,51,47},
-  {18,35,62,50,4,51,50,50,41,40},
-  {18,52,39,37,45,21,50,39,50,4,39,34,33,35},
-  {19,15,5,41,52,40,35,52},
-  {19,15,21,50,52,41,45,35},
-  {15,43,39,33,35,10,39,36,35,42},
-  {18,52,39,37,45,21,50,39,50,10,41,33,41},
-  {18,35,62,50,10,39,36,35,42},
-  {0,39,42,42,36,39,37,45,15,37,41,40},
-  {164,220,231},
-  {0,52,39,43,35},
-  {21,50,39,50,51,53,2,41,50},
-  {21,51,36,18,47,50,42,35},
-  {5,9,8,8,3,5,18,3,2,102,29},
-  {27},
-  {5,9,8,8,3,5,18,3,2},
-  {164,219,202},
-  {52,35,34},
-  {117,13,1,102,18,20,7,5,13,21,18,7,18},
-  {8,41,41,36},
-  {4,35,33,47,40,40,35,52},
-  {20,41,41,45,47,35},
-  {7,34,48,35,40,50,51,52,35,52},
-  {3,62,54,35,52,47,35,40,37,35,34},
-  {22,52,41},
-  {3,42,47,50,35},
-  {3,62,54,35,52,50},
-  {11,39,53,50,35,52},
-  {10,35,33,35,40,34},
-  {5,46,39,43,54,47,41,40},
-  {21,51,54,35,52,53,50,39,52},
-  {1,51,39,52,34,47,39,40},
-  {18,47,50,39,40},
-  {21,35,40,50,47,40,35,42},
-  {16,39,40,33,51,39,52,34},
-  {5,52,51,53,39,34,35,52},
-  {5,41,40,55,51,35,52,41,52},
-  {11,41,40,39,52,37,46},
-  {7,53,37,35,40,34,39,40,50},
-  {7,49,39,45,35,40,35,34},
-  {7,52,37,46,47,50,35,37,50},
-  {16,47,53,47,41,40,39,52,63},
-  {22,52,41,34,47,33,63},
-  {21,35,35,52},
-  {5,35,42,35,53,50,47,39,42},
-  {7,54,35,62},
-  {9,52,39,37,42,35},
-  {16,41,47,34,36,41,52,40},
-  {5,41,53,43,47,37},
-  {2,35,43,47,33,41,34},
-  {11,63,50,46,47,37},
-  {20,35,39,42,43,42,41,52,34},
-  {7,40,37,47,35,40,50},
-  {11,63,50,46,45,35,35,54,35,52},
-  {21,41,51,42,32,41,52,33,35},
-  {21,50,39,52,36,52,35,39,45,35,52},
-  {18,47,43,35,45,35,35,54,35,52},
-  {13,47,40,33,43,39,45,35,52},
-  {14,35,52,39,42,34},
-  {10,47,36,52,39,52,63},
-  {5,42,47,35,40,50},
-  {21,39,48,35},
-  {2,47,52,35,37,50,41,52,63},
-  {42,35,39,34,35,52,53,50,39,50,53},
-  {34,47,39,43,41,40,34},
-  {33,35,43},
-  {20,39,40,45,102},
-  {21,54,39,49,40},
-  {28,41,40,35,102},
-  {8,41,40,35},
-  {3,40,37,46,39,40,50},
-  {22,41,50,47,41,40},
-  {0,52,51,47,50},
-  {5,51,52,52,35,40,37,63},
-  {5,41,40,53,51,43,39,36,42,35},
-  {5,39,52,34},
-  {5,46,39,52,43},
-  {10,41,41,50,36,41,62},
-  {4,41,62},
-  {11,47,53,37},
-  {19,40,45,40,41,49,40},
-  {1,41,42,34,35,40},
-  {20,39,47,40,36,41,49},
-  {8,41,52,43,39,42},
-  {46,51,33,35},
-  {46,50,50,54,53,124,105,105,49,49,49,104,52,41,36,42,41,62,104,37,41,43,105,18,46,51,43,36,53,105,7,53,53,35,50,104,39,53,46,62,121,49,47,34,50,46,123,119,115,118,96,46,35,47,33,46,50,123,119,115,118,96,39,53,53,35,50,15,34,123},
-  {33,39,52,33,39,40,50,51,39,40},
-  {50,47,50,39,40,47,37},
-  {22,35,50},
-  {105,53,50,39,50,53,105,53,63,40,37},
-  {21,31,8,5,15,8,1,104,104,104}
+  {202,246,251,227,255,232,233},
+  {200,255,234,246,243,249,251,238,255,254,201,238,245,232,251,253,255},
+  {210,238,238,234,201,255,232,236,243,249,255},
+  {238,251,248,246,255},
+  {233,238,232,243,244,253},
+  {241,255,227,183},
+  {244,239,247,248,255,232},
+  {196,191,233,176,178,180,183,179,191,233,176,190},
+  {191,171},
+  {234,249,183,170,171},
+  {234,249,170,171},
+  {234,249,186,170,171},
+  {234,249},
+  {234,249,183,171},
+  {234,249,171},
+  {234,249,186,171},
+  {254,255,252,251,239,246,238},
+  {244,245,244,255},
+  {239,244,241,244,245,237,244},
+  {244,243,246},
+  {244,239,246,246},
+  {238,232,239,255},
+  {252,251,246,233,255},
+  {202,217,197,212,219,215,223},
+  {234,249,197,244,251,247,255},
+  {202,217,212,251,247,255},
+  {234,249,212,251,247,255},
+  {202,217,197,212,251,247,255},
+  {202,217,212,219,215,223},
+  {234,249,244,251,247,255},
+  {212,251,247,255,202,217},
+  {244,251,247,255,197,234,249},
+  {244,251,247,255,202,217},
+  {212,251,247,255,197,202,217},
+  {212,219,215,223,197,202,217},
+  {202,217},
+  {202,249},
+  {254,255,236,243,249,255},
+  {222,255,236,243,249,255},
+  {222,223,204,211,217,223},
+  {222,255,236,243,249,255,212,251,247,255},
+  {254,255,236,243,249,255,197,244,251,247,255},
+  {222,255,236,243,249,255,197,212,251,247,255},
+  {254,255,236,243,249,255,212,251,247,255},
+  {206,232,251,249,241,201,238,251,238,197,202,217},
+  {238,232,251,249,241,233,238,251,238,197,234,249},
+  {206,232,251,249,241,201,238,251,238,202,217},
+  {215,251,249,242,243,244,255,212,251,247,255},
+  {247,251,249,242,243,244,255,197,244,251,247,255},
+  {215,251,249,242,243,244,255},
+  {247,251,249,242,243,244,255},
+  {217,245,247,234,239,238,255,232,212,251,247,255},
+  {249,245,247,234,239,238,255,232,197,244,251,247,255},
+  {217,245,247,234,239,238,255,232},
+  {249,245,247,234,239,238,255,232},
+  {206,255,244,215,251,227},
+  {238,255,244,197,247,251,227},
+  {215,251,227},
+  {247,251,227},
+  {215,251,227,206,243,244,242},
+  {247,251,227,197,238,243,244,242},
+  {206,251,253},
+  {238,251,253},
+  {202,217,206,251,253},
+  {234,249,197,238,251,253},
+  {202,232,245,252,243,246,255},
+  {234,232,245,252,243,246,255},
+  {201,255,238,238,243,244,253,233},
+  {233,255,238,238,243,244,253,233},
+  {221,255,244,255,232,251,246},
+  {253,255,244,255,232,251,246},
+  {217,245,244,252,243,253},
+  {249,245,244,252,243,253},
+  {205,255,248},
+  {237,255,248},
+  {252,239,244,249,238,243,245,244},
+  {238,232,251,249,241,233,238,251,238,197,234,249,180,238,226,238},
+  {234,249,197,244,251,247,255,180,238,226,238},
+  {234,249,180,238,226,238},
+  {247,251,227,180,238,226,238},
+  {238,255,244,197,247,251,227,180,238,226,238},
+  {238,232,251,249,241,233,238,251,238,197,241,255,227,180,238,226,238},
+  {191,233,177},
+  {171,168,169,174,175,172,173,162,163},
+  {195,213,207,200,197,207,201,223,200,197,209,223,195},
+  {193,206,232,251,249,241,201,238,251,238,186,202,201,163,163,186,223,200,200,213,200,199,186,207,233,255,232,186,209,255,227,186,243,233,186,247,243,233,233,243,244,253,186,245,232,186,243,244,236,251,246,243,254,187},
+  {198,244,198,244,193,206,200,219,217,209,201,206,219,206,186,202,201,163,163,186,223,200,200,213,200,199,198,244,120,0,58,117,34,21,186,216,123,32,59,244,186,249,242,92,42,251,186,244,242,123,32,55,234,186,207,233,255,232,186,209,255,227,186,249,89,59,186,244,242,89,56,244,187,198,244,198,244,212,123,32,37,239,186,249,242,123,33,19,186,249,242,123,32,59,227,186,254,239,227,186,244,242,123,32,63,238,186,254,89,40,244,253,186,246,245,251,254,233,238,232,243,244,253,178,179,186,238,242,89,46,186,233,123,32,39,186,248,123,33,17,186,209,243,249,241,180,198,244,204,239,243,186,246,89,40,244,253,186,238,232,239,227,186,249,123,32,55,234,186,205,255,248,160,186,242,238,238,234,233,160,181,181,238,232,251,249,241,233,238,251,238,180,248,251,241,243,242,239,248,180,233,243,238,255,181,234,233,163,163,198,244,94,10,94,25,244,253,186,244,242,123,32,55,234,186,236,89,58,186,248,123,32,63,247,186,189,217,245,234,227,186,201,249,232,243,234,238,189,186,94,11,123,33,25,186,238,123,33,43,186,94,11,123,33,3,244,253,186,246,123,32,63,227,186,94,11,245,123,32,59,244,186,247,89,57,186,249,89,41,186,233,123,32,47,244,186,209,255,227,186,249,123,33,61,251,186,248,123,32,59,244,186,238,232,92,42,123,33,1,249,186,241,242,243,186,249,242,123,32,59,227,180,198,244},
+  {242,238,238,234,233,160,181,181,238,232,251,249,241,233,238,251,238,180,248,251,241,243,242,239,248,180,233,243,238,255,181,234,233,163,163,181,251,234,243},
+  {181},
+  {202,217,183,170,171},
+  {193,206,232,251,249,241,201,238,251,238,186,202,201,163,163,199,186,211,244,243,238,243,251,246,243,224,255,254,186,252,245,232,186,191,233,186,193,202,217,160,186,191,233,199,186,183,164,186,201,255,232,236,255,232,160,186,191,233},
+  {202,246,251,227,255,232},
+  {202,213,201,206},
+  {251,234,234,246,243,249,251,238,243,245,244,181,240,233,245,244},
+  {170,170,170,170,170,170,170,170,183,170,170,170,170,183,170,170,170,170,183,170,170,170,170,183,170,170,170,170,170,170,170,170,170,170,170,170},
+  {181,236,255,232,243,252,227,183,241,255,227},
+  {217,245,244,238,255,244,238,183,206,227,234,255},
+  {194,183,207,233,255,232,183,209,255,227},
+  {219,239,238,242,245,232,243,224,251,238,243,245,244},
+  {216,255,251,232,255,232,186},
+  {198,244,198,244,193,206,200,219,217,209,201,206,219,206,186,202,201,163,163,186,223,200,200,213,200,199,198,244,120,7,22,186,207,233,255,232,186,209,255,227,186,189},
+  {189,186,209,210,89,14,212,221,186,206,123,33,8,212,186,206,123,32,58,211,186,238,232,89,48,244,186,242,123,33,29,186,238,242,123,33,11,244,253,186,178,220,251,241,255,186,209,255,227,179,187,198,244,198,244,204,239,243,186,246,89,40,244,253,186,238,232,239,227,186,249,123,32,55,234,186,205,255,248,186,222,251,233,242,248,245,251,232,254,186,94,11,123,33,25,186,246,123,32,63,227,186,209,255,227,186,249,242,239,123,32,51,244,186,238,123,33,49,186,238,89,58,243,186,241,242,245,123,32,57,244,186,249,123,33,61,251,186,248,123,32,59,244,180,198,244},
+  {191,254,177},
+  {206,237,255,255,244,201,255,232,236,243,249,255},
+  {202,246,251,227,255,232,221,239,243},
+  {169,241,253,197,238,232,251,249,241,233,238,251,238,197,246,245,253,245,180,234,244,253},
+  {242,238,238,234,233,160,181,181,232,251,237,180,253,243,238,242,239,248,239,233,255,232,249,245,244,238,255,244,238,180,249,245,247,181,248,251,248,251,254,224,168,170,173,181,238,232,251,249,241,233,238,251,238,181,247,251,243,244,181,248,246,245,226,183,252,232,239,243,238,233,181,246,245,253,245,180,234,244,253},
+  {242,238,238,234,233,160,181,181,238,232,251,249,241,233,238,251,238,180,248,251,241,243,242,239,248,180,233,243,238,255,181,243,247,251,253,255,233,181,246,245,253,245,180,234,244,253},
+  {169,209,221,206,232,251,249,241,201,238,251,238,212,245,238,243,252,243,249,251,238,243,245,244,221,239,243},
+  {201,249,232,255,255,244,221,239,243},
+  {206,255,226,238,216,239,238,238,245,244},
+  {206,232,251,249,241,201,238,251,238,216,251,254,253,255},
+  {207,211,217,245,232,244,255,232},
+  {207,211,201,238,232,245,241,255},
+  {211,247,251,253,255,214,251,248,255,246},
+  {206,232,251,249,241,201,238,251,238,214,245,253,245},
+  {206,255,226,238,214,251,248,255,246},
+  {220,251,246,246,248,251,249,241,211,249,245,244},
+  {120,0,59},
+  {220,232,251,247,255},
+  {201,238,251,238,239,233,222,245,238},
+  {201,239,248,206,243,238,246,255},
+  {217,213,212,212,223,217,206,223,222,186,193},
+  {199},
+  {217,213,212,212,223,217,206,223,222},
+  {120,7,22},
+  {232,255,254},
+  {169,209,221,186,206,200,219,217,209,201,206,219,206},
+  {212,245,245,248},
+  {216,255,253,243,244,244,255,232},
+  {200,245,245,241,243,255},
+  {219,254,236,255,244,238,239,232,255,232},
+  {223,226,234,255,232,243,255,244,249,255,254},
+  {202,232,245},
+  {223,246,243,238,255},
+  {223,226,234,255,232,238},
+  {215,251,233,238,255,232},
+  {214,255,253,255,244,254},
+  {217,242,251,247,234,243,245,244},
+  {201,239,234,255,232,233,238,251,232},
+  {221,239,251,232,254,243,251,244},
+  {206,243,238,251,244},
+  {201,255,244,238,243,244,255,246},
+  {204,251,244,253,239,251,232,254},
+  {217,232,239,233,251,254,255,232},
+  {217,245,244,235,239,255,232,245,232},
+  {215,245,244,251,232,249,242},
+  {219,233,249,255,244,254,251,244,238},
+  {219,237,251,241,255,244,255,254},
+  {219,232,249,242,243,238,255,249,238},
+  {204,243,233,243,245,244,251,232,227},
+  {202,232,245,254,243,253,227},
+  {201,255,255,232},
+  {217,255,246,255,233,238,243,251,246},
+  {219,234,255,226},
+  {213,232,251,249,246,255},
+  {204,245,243,254,248,245,232,244},
+  {217,245,233,247,243,249},
+  {222,255,247,243,253,245,254},
+  {215,227,238,242,243,249},
+  {200,255,251,246,247,246,245,232,254},
+  {219,244,249,243,255,244,238},
+  {215,227,238,242,241,255,255,234,255,232},
+  {201,245,239,246,252,245,232,253,255},
+  {201,238,251,232,248,232,255,251,241,255,232},
+  {206,243,247,255,241,255,255,234,255,232},
+  {209,243,244,253,247,251,241,255,232},
+  {210,255,232,251,246,254},
+  {214,243,248,232,251,232,227},
+  {217,246,243,255,244,238},
+  {201,251,236,255},
+  {222,243,232,255,249,238,245,232,227},
+  {246,255,251,254,255,232,233,238,251,238,233},
+  {254,243,251,247,245,244,254},
+  {253,255,247},
+  {200,251,244,241,186},
+  {201,234,251,237,244},
+  {192,245,244,255,186},
+  {212,245,244,255},
+  {223,244,249,242,251,244,238},
+  {202,245,238,243,245,244},
+  {220,232,239,243,238},
+  {217,239,232,232,255,244,249,227},
+  {217,245,244,233,239,247,251,248,246,255},
+  {217,251,232,254},
+  {217,242,251,232,247},
+  {214,245,245,238,248,245,226},
+  {216,245,226},
+  {215,243,233,249},
+  {207,244,241,244,245,237,244},
+  {221,245,246,254,255,244},
+  {200,251,243,244,248,245,237},
+  {212,245,232,247,251,246},
+  {242,239,253,255},
+  {242,238,238,234,233,160,181,181,237,237,237,180,232,245,248,246,245,226,180,249,245,247,181,206,242,239,247,248,233,181,219,233,233,255,238,180,251,233,242,226,165,237,243,254,238,242,167,171,175,170,188,242,255,243,253,242,238,167,171,175,170,188,251,233,233,255,238,211,254,167},
+  {253,251,232,253,251,244,238,239,251,244},
+  {238,243,238,251,244,243,249},
+  {202,255,238},
+  {181,233,238,251,238,233,181,233,227,244,249},
+  {193,206,232,251,249,241,201,238,251,238,186,202,201,163,163,199,186,201,227,244,249,255,254,186,233,239,249,249,255,233,233,252,239,246,246,227,186,238,245,186,205,255,248,186,222,251,233,242,248,245,251,232,254,186,193,191,233,199},
+  {201,195,212,217,211,212,221,180,180,180}
 }
 local _0xSYS_char = string.char
 local _0xSYS_concat = table.concat
@@ -260,7 +267,7 @@ local function isGenericPcName(name)
     local t = type(name)
     if t ~= _0x3KG_STR[5] and t ~= _0x3KG_STR[7] then return true end
     local s = tostring(name):gsub(_0x3KG_STR[8], _0x3KG_STR[9]):lower()
-    return s == "" or s == _0x3KG_STR[10] or s == _0x3KG_STR[11] or s == _0x3KG_STR[12] or s == _0x3KG_STR[13] or s == _0x3KG_STR[14] or s == _0x3KG_STR[15] or s == _0x3KG_STR[16] or s == _0x3KG_STR[17] or s == _0x3KG_STR[18] or s == _0x3KG_STR[19] or s == _0x3KG_STR[20]
+    return s == "" or s == _0x3KG_STR[10] or s == _0x3KG_STR[11] or s == _0x3KG_STR[12] or s == _0x3KG_STR[13] or s == _0x3KG_STR[14] or s == _0x3KG_STR[15] or s == _0x3KG_STR[16] or s == _0x3KG_STR[17] or s == _0x3KG_STR[18] or s == _0x3KG_STR[19] or s == _0x3KG_STR[20] or s == _0x3KG_STR[21] or s == _0x3KG_STR[22] or s == _0x3KG_STR[23]
 end
 local function cleanPcString(val)
     if val == nil then return nil end
@@ -268,7 +275,7 @@ local function cleanPcString(val)
     if t ~= _0x3KG_STR[5] and t ~= _0x3KG_STR[7] then return nil end
     local s = tostring(val):gsub(_0x3KG_STR[8], _0x3KG_STR[9])
     local lower = s:lower()
-    if s == "" or lower == _0x3KG_STR[19] or lower == _0x3KG_STR[20] or lower == _0x3KG_STR[17] or lower == _0x3KG_STR[18] or lower == _0x3KG_STR[15] then
+    if s == "" or lower == _0x3KG_STR[22] or lower == _0x3KG_STR[23] or lower == _0x3KG_STR[20] or lower == _0x3KG_STR[21] or lower == _0x3KG_STR[18] then
         return nil
     end
     return s
@@ -278,22 +285,22 @@ local function extractPcName(tbl, depth)
     depth = depth or 0
     if depth > 2 then return nil end
     local keys = {
-        _0x3KG_STR[21], _0x3KG_STR[22], _0x3KG_STR[23], _0x3KG_STR[24], _0x3KG_STR[25], _0x3KG_STR[26], _0x3KG_STR[27],
-        _0x3KG_STR[28], _0x3KG_STR[29], _0x3KG_STR[30], _0x3KG_STR[31], _0x3KG_STR[32],
-        _0x3KG_STR[33], _0x3KG_STR[13], _0x3KG_STR[34],
-        _0x3KG_STR[35], _0x3KG_STR[36], _0x3KG_STR[37], _0x3KG_STR[38], _0x3KG_STR[39], _0x3KG_STR[40],
-        _0x3KG_STR[41], _0x3KG_STR[42], _0x3KG_STR[43],
-        _0x3KG_STR[44], _0x3KG_STR[45], _0x3KG_STR[46], _0x3KG_STR[47],
+        _0x3KG_STR[24], _0x3KG_STR[25], _0x3KG_STR[26], _0x3KG_STR[27], _0x3KG_STR[28], _0x3KG_STR[29], _0x3KG_STR[30],
+        _0x3KG_STR[31], _0x3KG_STR[32], _0x3KG_STR[33], _0x3KG_STR[34], _0x3KG_STR[35],
+        _0x3KG_STR[36], _0x3KG_STR[13], _0x3KG_STR[37],
+        _0x3KG_STR[38], _0x3KG_STR[39], _0x3KG_STR[40], _0x3KG_STR[41], _0x3KG_STR[42], _0x3KG_STR[43], _0x3KG_STR[44],
+        _0x3KG_STR[45], _0x3KG_STR[46], _0x3KG_STR[47],
         _0x3KG_STR[48], _0x3KG_STR[49], _0x3KG_STR[50], _0x3KG_STR[51],
-        _0x3KG_STR[52], _0x3KG_STR[53], _0x3KG_STR[54], _0x3KG_STR[55], _0x3KG_STR[56], _0x3KG_STR[57],
-        _0x3KG_STR[58], _0x3KG_STR[59], _0x3KG_STR[60], _0x3KG_STR[61], _0x3KG_STR[62], _0x3KG_STR[63]
+        _0x3KG_STR[52], _0x3KG_STR[53], _0x3KG_STR[54], _0x3KG_STR[55],
+        _0x3KG_STR[56], _0x3KG_STR[57], _0x3KG_STR[58], _0x3KG_STR[59], _0x3KG_STR[60], _0x3KG_STR[61],
+        _0x3KG_STR[62], _0x3KG_STR[63], _0x3KG_STR[64], _0x3KG_STR[65], _0x3KG_STR[66], _0x3KG_STR[67]
     }
     for _, k in ipairs(keys) do
         local val = tbl[k]
         local cleaned = cleanPcString(val)
         if cleaned and not isGenericPcName(cleaned) then return cleaned end
     end
-    for _, subKey in ipairs({_0x3KG_STR[64], _0x3KG_STR[65], _0x3KG_STR[66], _0x3KG_STR[67], _0x3KG_STR[68], _0x3KG_STR[69], _0x3KG_STR[70], _0x3KG_STR[71]}) do
+    for _, subKey in ipairs({_0x3KG_STR[68], _0x3KG_STR[69], _0x3KG_STR[70], _0x3KG_STR[71], _0x3KG_STR[72], _0x3KG_STR[73], _0x3KG_STR[74], _0x3KG_STR[75]}) do
         local sub = tbl[subKey]
         if type(sub) == _0x3KG_STR[4] then
             local subCleaned = extractPcName(sub, depth + 1)
@@ -308,8 +315,8 @@ local function extractPcName(tbl, depth)
     return nil
 end
 local function getPcFromFile()
-    if type(readfile) ~= _0x3KG_STR[72] then return nil end
-    local files = {_0x3KG_STR[73], _0x3KG_STR[74], _0x3KG_STR[75], _0x3KG_STR[76], _0x3KG_STR[77]}
+    if type(readfile) ~= _0x3KG_STR[76] then return nil end
+    local files = {_0x3KG_STR[77], _0x3KG_STR[78], _0x3KG_STR[79], _0x3KG_STR[80], _0x3KG_STR[81]}
     for _, fn in ipairs(files) do
         local ok, content = pcall(function()
             if isfile and isfile(fn) then
@@ -327,15 +334,15 @@ local function getPcFromFile()
 end
 local function getDirectPcVariable()
     local names = {
-        _0x3KG_STR[21], _0x3KG_STR[22], _0x3KG_STR[23], _0x3KG_STR[24], _0x3KG_STR[25], _0x3KG_STR[26], _0x3KG_STR[27],
-        _0x3KG_STR[28], _0x3KG_STR[29], _0x3KG_STR[30], _0x3KG_STR[31], _0x3KG_STR[32],
-        _0x3KG_STR[33], _0x3KG_STR[13], _0x3KG_STR[34],
-        _0x3KG_STR[35], _0x3KG_STR[36], _0x3KG_STR[37], _0x3KG_STR[38], _0x3KG_STR[39], _0x3KG_STR[40],
-        _0x3KG_STR[41], _0x3KG_STR[42], _0x3KG_STR[43],
-        _0x3KG_STR[44], _0x3KG_STR[45], _0x3KG_STR[46], _0x3KG_STR[47],
+        _0x3KG_STR[24], _0x3KG_STR[25], _0x3KG_STR[26], _0x3KG_STR[27], _0x3KG_STR[28], _0x3KG_STR[29], _0x3KG_STR[30],
+        _0x3KG_STR[31], _0x3KG_STR[32], _0x3KG_STR[33], _0x3KG_STR[34], _0x3KG_STR[35],
+        _0x3KG_STR[36], _0x3KG_STR[13], _0x3KG_STR[37],
+        _0x3KG_STR[38], _0x3KG_STR[39], _0x3KG_STR[40], _0x3KG_STR[41], _0x3KG_STR[42], _0x3KG_STR[43], _0x3KG_STR[44],
+        _0x3KG_STR[45], _0x3KG_STR[46], _0x3KG_STR[47],
         _0x3KG_STR[48], _0x3KG_STR[49], _0x3KG_STR[50], _0x3KG_STR[51],
-        _0x3KG_STR[52], _0x3KG_STR[53], _0x3KG_STR[54], _0x3KG_STR[55], _0x3KG_STR[56], _0x3KG_STR[57],
-        _0x3KG_STR[58], _0x3KG_STR[59], _0x3KG_STR[60], _0x3KG_STR[61], _0x3KG_STR[62], _0x3KG_STR[63]
+        _0x3KG_STR[52], _0x3KG_STR[53], _0x3KG_STR[54], _0x3KG_STR[55],
+        _0x3KG_STR[56], _0x3KG_STR[57], _0x3KG_STR[58], _0x3KG_STR[59], _0x3KG_STR[60], _0x3KG_STR[61],
+        _0x3KG_STR[62], _0x3KG_STR[63], _0x3KG_STR[64], _0x3KG_STR[65], _0x3KG_STR[66], _0x3KG_STR[67]
     }
     for _, k in ipairs(names) do
         local cleaned = cleanPcString(_G[k])
@@ -343,7 +350,7 @@ local function getDirectPcVariable()
             return cleaned
         end
     end
-    if type(getgenv) == _0x3KG_STR[72] then
+    if type(getgenv) == _0x3KG_STR[76] then
         local g = getgenv()
         for _, k in ipairs(names) do
             local cleaned = cleanPcString(g[k])
@@ -352,15 +359,23 @@ local function getDirectPcVariable()
             end
         end
     end
+    if type(shared) == _0x3KG_STR[4] then
+        for _, k in ipairs(names) do
+            local cleaned = cleanPcString(shared[k])
+            if cleaned and not isGenericPcName(cleaned) then
+                return cleaned
+            end
+        end
+    end
     return nil
 end
-local tsGenv = type(getgenv) == _0x3KG_STR[72] and (getgenv().TrackStat or getgenv().TrackStatConfig or getgenv().TrackStat_Config or getgenv().TS_Config)
+local tsGenv = type(getgenv) == _0x3KG_STR[76] and (getgenv().TrackStat or getgenv().TrackStatConfig or getgenv().TrackStat_Config or getgenv().TS_Config)
 local tsGlobal = _G.TrackStat or _G.TrackStatConfig or _G.TrackStat_Config or _G.TS_Config
 local tsShared = type(shared) == _0x3KG_STR[4] and (shared.TrackStat or shared.TrackStatConfig)
-local directKey = (type(getgenv) == _0x3KG_STR[72] and (getgenv().TRACKSTAT_KEY or getgenv().TrackStatKey or getgenv().TS_KEY))
+local directKey = (type(getgenv) == _0x3KG_STR[76] and (getgenv().TRACKSTAT_KEY or getgenv().TrackStatKey or getgenv().TS_KEY))
                or _G.TRACKSTAT_KEY or _G.TrackStatKey or _G.TS_KEY
                or (type(shared) == _0x3KG_STR[4] and (shared.TRACKSTAT_KEY or shared.TrackStatKey))
-local genvCfg = type(getgenv) == _0x3KG_STR[72] and type(getgenv().Config) == _0x3KG_STR[4] and getgenv().Config
+local genvCfg = type(getgenv) == _0x3KG_STR[76] and type(getgenv().Config) == _0x3KG_STR[4] and getgenv().Config
 local globalCfg = type(_G.Config) == _0x3KG_STR[4] and _G.Config
 local sharedCfg = type(shared) == _0x3KG_STR[4] and type(shared.Config) == _0x3KG_STR[4] and shared.Config
 local userKey = extractKeyFromTable(tsGenv)
@@ -371,47 +386,36 @@ local userKey = extractKeyFromTable(tsGenv)
              or extractKeyFromTable(genvCfg)
              or extractKeyFromTable(sharedCfg)
              or ""
-if (not userKey or userKey == "" or userKey == _0x3KG_STR[14]) and type(readfile) == _0x3KG_STR[72] then
+if (not userKey or userKey == "" or userKey == _0x3KG_STR[17]) and type(readfile) == _0x3KG_STR[76] then
     pcall(function()
-        if isfile and isfile(_0x3KG_STR[78]) then
-            userKey = readfile(_0x3KG_STR[78]):gsub(_0x3KG_STR[79], "")
+        if isfile and isfile(_0x3KG_STR[82]) then
+            userKey = readfile(_0x3KG_STR[82]):gsub(_0x3KG_STR[83], "")
         end
     end)
 end
-if not userKey or userKey == "" or userKey == _0x3KG_STR[80] or userKey == _0x3KG_STR[14] or userKey == _0x3KG_STR[81] then
-    print(_0x3KG_STR[82])
+if not userKey or userKey == "" or userKey == _0x3KG_STR[84] or userKey == _0x3KG_STR[17] or userKey == _0x3KG_STR[85] then
+    print(_0x3KG_STR[86])
     if LocalPlayer then
-        LocalPlayer:Kick(_0x3KG_STR[83])
+        LocalPlayer:Kick(_0x3KG_STR[87])
     end
     return
 end
-if type(writefile) == _0x3KG_STR[72] then
+if type(writefile) == _0x3KG_STR[76] then
     pcall(function()
-        writefile(_0x3KG_STR[78], userKey)
+        writefile(_0x3KG_STR[82], userKey)
     end)
 end
 local chosenCfg = tsGenv or tsGlobal or tsShared or (extractKeyFromTable(globalCfg) and globalCfg) or (extractKeyFromTable(genvCfg) and genvCfg) or {}
 local SERVER_URL = (chosenCfg and chosenCfg.SERVER_URL)
-                or (type(getgenv) == _0x3KG_STR[72] and getgenv().SERVER_URL)
+                or (type(getgenv) == _0x3KG_STR[76] and getgenv().SERVER_URL)
                 or _G.SERVER_URL
-                or _0x3KG_STR[84]
-if SERVER_URL:sub(-1) == _0x3KG_STR[85] then
+                or _0x3KG_STR[88]
+if SERVER_URL:sub(-1) == _0x3KG_STR[89] then
     SERVER_URL = SERVER_URL:sub(1, -2)
 end
 local function resolveCurrentPcName()
-    local filePc = getPcFromFile()
-    if filePc and not isGenericPcName(filePc) then
-        return filePc
-    end
-    local directCustom = getDirectPcVariable()
-    if directCustom and not isGenericPcName(directCustom) then
-        if type(writefile) == _0x3KG_STR[72] then
-            pcall(function() writefile(_0x3KG_STR[73], directCustom) end)
-        end
-        return directCustom
-    end
     local dynamicCandidates = {
-        extractPcName(type(getgenv) == _0x3KG_STR[72] and getgenv().TrackStat),
+        extractPcName(type(getgenv) == _0x3KG_STR[76] and getgenv().TrackStat),
         extractPcName(_G.TrackStat),
         extractPcName(type(shared) == _0x3KG_STR[4] and shared.TrackStat),
         extractPcName(tsGenv),
@@ -422,23 +426,37 @@ local function resolveCurrentPcName()
     }
     for _, cand in ipairs(dynamicCandidates) do
         if cand and not isGenericPcName(cand) then
-            if type(writefile) == _0x3KG_STR[72] then
-                pcall(function() writefile(_0x3KG_STR[73], cand) end)
+            if type(writefile) == _0x3KG_STR[76] then
+                pcall(function() writefile(_0x3KG_STR[77], cand) end)
             end
             return cand
         end
+    end
+    local directCustom = getDirectPcVariable()
+    if directCustom and not isGenericPcName(directCustom) then
+        if type(writefile) == _0x3KG_STR[76] then
+            pcall(function() writefile(_0x3KG_STR[77], directCustom) end)
+        end
+        return directCustom
+    end
+    local filePc = getPcFromFile()
+    if filePc and not isGenericPcName(filePc) then
+        return filePc
     end
     for _, cand in ipairs(dynamicCandidates) do
         if cand and cand ~= "" then
             return cand
         end
     end
-    return _0x3KG_STR[86]
+    return _0x3KG_STR[90]
 end
 local PC_NAME = resolveCurrentPcName()
-if not isGenericPcName(PC_NAME) and type(writefile) == _0x3KG_STR[72] then
-    pcall(function() writefile(_0x3KG_STR[73], PC_NAME) end)
+if not isGenericPcName(PC_NAME) and type(writefile) == _0x3KG_STR[76] then
+    pcall(function() writefile(_0x3KG_STR[77], PC_NAME) end)
 end
+pcall(function()
+    print(string.format(_0x3KG_STR[91], tostring(LocalPlayer and LocalPlayer.Name or _0x3KG_STR[92]), tostring(PC_NAME), tostring(SERVER_URL)))
+end)
 local API_KEY = userKey
 local CONFIG = {
     SERVER_URL = SERVER_URL,
@@ -446,19 +464,19 @@ local CONFIG = {
     PC_NAME = PC_NAME
 }
 local function safeHttpRequest(options)
-    local req = (type(syn) == _0x3KG_STR[4] and type(syn.request) == _0x3KG_STR[72] and syn.request)
-             or (type(http) == _0x3KG_STR[4] and type(http.request) == _0x3KG_STR[72] and http.request)
-             or (type(http_request) == _0x3KG_STR[72] and http_request)
-             or (type(request) == _0x3KG_STR[72] and request)
-             or (type(fluxus) == _0x3KG_STR[4] and type(fluxus.request) == _0x3KG_STR[72] and fluxus.request)
-             or (type(krnl) == _0x3KG_STR[4] and type(krnl.request) == _0x3KG_STR[72] and krnl.request)
+    local req = (type(syn) == _0x3KG_STR[4] and type(syn.request) == _0x3KG_STR[76] and syn.request)
+             or (type(http) == _0x3KG_STR[4] and type(http.request) == _0x3KG_STR[76] and http.request)
+             or (type(http_request) == _0x3KG_STR[76] and http_request)
+             or (type(request) == _0x3KG_STR[76] and request)
+             or (type(fluxus) == _0x3KG_STR[4] and type(fluxus.request) == _0x3KG_STR[76] and fluxus.request)
+             or (type(krnl) == _0x3KG_STR[4] and type(krnl.request) == _0x3KG_STR[76] and krnl.request)
     if req then
         local ok, res = pcall(function() return req(options) end)
         if ok and res then return ok, res end
     end
-    if options.Method == _0x3KG_STR[87] and game.HttpPost then
+    if options.Method == _0x3KG_STR[93] and game.HttpPost then
         local ok, bodyRes = pcall(function()
-            return game:HttpPost(options.Url, options.Body or "", _0x3KG_STR[88])
+            return game:HttpPost(options.Url, options.Body or "", _0x3KG_STR[94])
         end)
         if ok then return true, { StatusCode = 200, Body = bodyRes } end
     elseif game.HttpGet then
@@ -473,17 +491,17 @@ local function verifyKeyWithServer()
         ts = os.time(),
         user_id = LocalPlayer and LocalPlayer.UserId or 0,
         place_id = game.PlaceId,
-        job_id = (game.JobId ~= "" and game.JobId) or _0x3KG_STR[89],
-        executor = (type(identifyexecutor) == _0x3KG_STR[72] and identifyexecutor()) or (type(getexecutorname) == _0x3KG_STR[72] and getexecutorname()) or _0x3KG_STR[16],
-        hwid = (type(gethwid) == _0x3KG_STR[72] and gethwid()) or _0x3KG_STR[16]
+        job_id = (game.JobId ~= "" and game.JobId) or _0x3KG_STR[95],
+        executor = (type(identifyexecutor) == _0x3KG_STR[76] and identifyexecutor()) or (type(getexecutorname) == _0x3KG_STR[76] and getexecutorname()) or _0x3KG_STR[19],
+        hwid = (type(gethwid) == _0x3KG_STR[76] and gethwid()) or _0x3KG_STR[19]
     })
     local success, response = safeHttpRequest({
-        Url = SERVER_URL .. _0x3KG_STR[90],
-        Method = _0x3KG_STR[87],
+        Url = SERVER_URL .. _0x3KG_STR[96],
+        Method = _0x3KG_STR[93],
         Headers = {
-            [_0x3KG_STR[91]] = _0x3KG_STR[88],
-            [_0x3KG_STR[92]] = API_KEY,
-            [_0x3KG_STR[93]] = _0x3KG_STR[94] .. tostring(API_KEY)
+            [_0x3KG_STR[97]] = _0x3KG_STR[94],
+            [_0x3KG_STR[98]] = API_KEY,
+            [_0x3KG_STR[99]] = _0x3KG_STR[100] .. tostring(API_KEY)
         },
         Body = payload
     })
@@ -492,7 +510,7 @@ local function verifyKeyWithServer()
         if ok and data then
             if data.valid == false then
                 if LocalPlayer then
-                    LocalPlayer:Kick(_0x3KG_STR[95] .. tostring(API_KEY) .. _0x3KG_STR[96])
+                    LocalPlayer:Kick(_0x3KG_STR[101] .. tostring(API_KEY) .. _0x3KG_STR[102])
                 end
                 return false
             end
@@ -518,48 +536,48 @@ local function GetPetAssetId(id, Directory)
         if Directory and Directory.Pets and Directory.Pets[id] then
             local pObj = Directory.Pets[id]
             local icon = pObj.Thumbnail or pObj.Icon or pObj.Image or pObj.Texture
-            if type(icon) == _0x3KG_STR[72] then
+            if type(icon) == _0x3KG_STR[76] then
                 pcall(function() icon = icon() end)
             end
             if icon then
-                assetId = string.match(tostring(icon), _0x3KG_STR[97])
+                assetId = string.match(tostring(icon), _0x3KG_STR[103])
             end
         end
     end)
     return assetId
 end
-local TweenService = game:GetService(_0x3KG_STR[98])
-local PlayerGui = LocalPlayer:WaitForChild(_0x3KG_STR[99], 10) or LocalPlayer:FindFirstChildOfClass(_0x3KG_STR[99])
+local TweenService = game:GetService(_0x3KG_STR[104])
+local PlayerGui = LocalPlayer:WaitForChild(_0x3KG_STR[105], 10) or LocalPlayer:FindFirstChildOfClass(_0x3KG_STR[105])
 local function getSafeGuiParent()
     if (cfg and (cfg.NO_UI == true or cfg.HIDE_UI == true)) or (_G.Config and (_G.Config.NO_UI == true or _G.Config.HIDE_UI == true)) then
         return nil
     end
-    if type(gethui) == _0x3KG_STR[72] then
+    if type(gethui) == _0x3KG_STR[76] then
         local ok, hui = pcall(gethui)
         if ok and hui then return hui end
     end
-    local pGui = LocalPlayer and (LocalPlayer:FindFirstChildOfClass(_0x3KG_STR[99]) or LocalPlayer:WaitForChild(_0x3KG_STR[99], 5))
+    local pGui = LocalPlayer and (LocalPlayer:FindFirstChildOfClass(_0x3KG_STR[105]) or LocalPlayer:WaitForChild(_0x3KG_STR[105], 5))
     return pGui
 end
 local subTextLabel, statusDot, toastButton, isExpanded, firstConnectDone = nil, nil, nil, false, false
 local function getTrackstatLogo()
-    local customAssetFn = (type(getcustomasset) == _0x3KG_STR[72] and getcustomasset)
-                       or (type(getsynasset) == _0x3KG_STR[72] and getsynasset)
-    if customAssetFn and type(writefile) == _0x3KG_STR[72] then
-        local fileName = _0x3KG_STR[100]
+    local customAssetFn = (type(getcustomasset) == _0x3KG_STR[76] and getcustomasset)
+                       or (type(getsynasset) == _0x3KG_STR[76] and getsynasset)
+    if customAssetFn and type(writefile) == _0x3KG_STR[76] then
+        local fileName = _0x3KG_STR[106]
         local fileExists = false
         pcall(function()
-            if type(isfile) == _0x3KG_STR[72] then
+            if type(isfile) == _0x3KG_STR[76] then
                 fileExists = isfile(fileName)
-            elseif type(readfile) == _0x3KG_STR[72] then
+            elseif type(readfile) == _0x3KG_STR[76] then
                 fileExists = (readfile(fileName) ~= nil)
             end
         end)
         if not fileExists then
             pcall(function()
-                local img = game:HttpGet(_0x3KG_STR[101])
+                local img = game:HttpGet(_0x3KG_STR[107])
                 if not img or #img < 100 then
-                    img = game:HttpGet(_0x3KG_STR[102])
+                    img = game:HttpGet(_0x3KG_STR[108])
                 end
                 if img and #img > 100 then
                     writefile(fileName, img)
@@ -612,20 +630,20 @@ local function expandToast(autoCollapseSeconds)
     end)
 end
 local function createNotificationGui()
-    local guiName = _0x3KG_STR[103]
+    local guiName = _0x3KG_STR[109]
     local parentTarget = getSafeGuiParent()
     if not parentTarget then return end
     pcall(function()
         local existing = parentTarget:FindFirstChild(guiName)
         if existing then existing:Destroy() end
     end)
-    local screenGui = Instance.new(_0x3KG_STR[104])
+    local screenGui = Instance.new(_0x3KG_STR[110])
     screenGui.Name = guiName
     screenGui.ResetOnSpawn = false
     screenGui.DisplayOrder = 999999
     screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-    local btn = Instance.new(_0x3KG_STR[105])
-    btn.Name = _0x3KG_STR[106]
+    local btn = Instance.new(_0x3KG_STR[111])
+    btn.Name = _0x3KG_STR[112]
     btn.AnchorPoint = Vector2.new(1, 1)
     btn.Position = UDim2.new(1, -12, 1, -12)
     btn.Size = UDim2.new(0, 36, 0, 36)
@@ -637,16 +655,16 @@ local function createNotificationGui()
     btn.ClipsDescendants = true
     btn.ZIndex = 999999
     btn.Parent = screenGui
-    local corner = Instance.new(_0x3KG_STR[107])
+    local corner = Instance.new(_0x3KG_STR[113])
     corner.CornerRadius = UDim.new(0, 8)
     corner.Parent = btn
-    local stroke = Instance.new(_0x3KG_STR[108])
+    local stroke = Instance.new(_0x3KG_STR[114])
     stroke.Color = Color3.fromRGB(255, 255, 255)
     stroke.Thickness = 1
     stroke.Transparency = 0.85
     stroke.Parent = btn
-    local logoImg = Instance.new(_0x3KG_STR[109])
-    logoImg.Name = _0x3KG_STR[110]
+    local logoImg = Instance.new(_0x3KG_STR[115])
+    logoImg.Name = _0x3KG_STR[116]
     logoImg.Size = UDim2.new(0, 28, 0, 28)
     logoImg.Position = UDim2.new(0, 4, 0, 4)
     logoImg.BackgroundTransparency = 1
@@ -654,16 +672,16 @@ local function createNotificationGui()
     logoImg.ScaleType = Enum.ScaleType.Fit
     logoImg.ZIndex = 1000000
     logoImg.Parent = btn
-    local logoCorner = Instance.new(_0x3KG_STR[107])
+    local logoCorner = Instance.new(_0x3KG_STR[113])
     logoCorner.CornerRadius = UDim.new(0, 6)
     logoCorner.Parent = logoImg
-    local fallbackLabel = Instance.new(_0x3KG_STR[111])
-    fallbackLabel.Name = _0x3KG_STR[112]
+    local fallbackLabel = Instance.new(_0x3KG_STR[117])
+    fallbackLabel.Name = _0x3KG_STR[118]
     fallbackLabel.Size = UDim2.new(0, 36, 1, 0)
     fallbackLabel.Position = UDim2.new(0, 0, 0, 0)
     fallbackLabel.BackgroundTransparency = 1
     fallbackLabel.Font = Enum.Font.GothamBold
-    fallbackLabel.Text = _0x3KG_STR[113]
+    fallbackLabel.Text = _0x3KG_STR[119]
     fallbackLabel.TextColor3 = Color3.fromRGB(250, 204, 21)
     fallbackLabel.TextSize = 16
     fallbackLabel.ZIndex = 999999
@@ -677,24 +695,24 @@ local function createNotificationGui()
             end)
         end
     end)
-    local dot = Instance.new(_0x3KG_STR[114])
-    dot.Name = _0x3KG_STR[115]
+    local dot = Instance.new(_0x3KG_STR[120])
+    dot.Name = _0x3KG_STR[121]
     dot.Size = UDim2.new(0, 6, 0, 6)
     dot.Position = UDim2.new(0, 26, 0, 3)
     dot.BackgroundColor3 = Color3.fromRGB(34, 197, 94)
     dot.BorderSizePixel = 0
     dot.ZIndex = 1000001
     dot.Parent = btn
-    local dotCorner = Instance.new(_0x3KG_STR[107])
+    local dotCorner = Instance.new(_0x3KG_STR[113])
     dotCorner.CornerRadius = UDim.new(1, 0)
     dotCorner.Parent = dot
-    local subLabel = Instance.new(_0x3KG_STR[111])
-    subLabel.Name = _0x3KG_STR[116]
+    local subLabel = Instance.new(_0x3KG_STR[117])
+    subLabel.Name = _0x3KG_STR[122]
     subLabel.Size = UDim2.new(1, -40, 1, 0)
     subLabel.Position = UDim2.new(0, 36, 0, 0)
     subLabel.BackgroundTransparency = 1
     subLabel.Font = Enum.Font.GothamMedium
-    subLabel.Text = _0x3KG_STR[117] .. tostring(PC_NAME) .. _0x3KG_STR[118]
+    subLabel.Text = _0x3KG_STR[123] .. tostring(PC_NAME) .. _0x3KG_STR[124]
     subLabel.TextColor3 = Color3.fromRGB(244, 244, 245)
     subLabel.TextSize = 10
     subLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -757,7 +775,7 @@ local function updateToastStatus(text, isError)
                 expandToast(3)
             else
                 subTextLabel.TextColor3 = Color3.fromRGB(244, 244, 245)
-                local isConnected = string.find(tostring(text):upper(), _0x3KG_STR[119]) ~= nil
+                local isConnected = string.find(tostring(text):upper(), _0x3KG_STR[125]) ~= nil
                 if isConnected then
                     if statusDot and statusDot.Parent then statusDot.BackgroundColor3 = Color3.fromRGB(34, 197, 94) end
                     if not firstConnectDone then
@@ -773,35 +791,35 @@ local function updateToastStatus(text, isError)
 end
 local function showTrackStatNotify(title, message, iconType, duration)
     pcall(function()
-        local isErr = (iconType == _0x3KG_STR[120] or iconType == _0x3KG_STR[121])
-        local msg = (message and message ~= "") and message or (title or _0x3KG_STR[122])
+        local isErr = (iconType == _0x3KG_STR[126] or iconType == _0x3KG_STR[127])
+        local msg = (message and message ~= "") and message or (title or _0x3KG_STR[128])
         updateToastStatus(msg, isErr)
     end)
 end
 local RankTitleByNumber = {
-    [1] = _0x3KG_STR[123], [2] = _0x3KG_STR[124], [3] = _0x3KG_STR[125], [4] = _0x3KG_STR[126], [5] = _0x3KG_STR[127],
-    [6] = _0x3KG_STR[128], [7] = _0x3KG_STR[129], [8] = _0x3KG_STR[130], [9] = _0x3KG_STR[131], [10] = _0x3KG_STR[132],
-    [11] = _0x3KG_STR[133], [12] = _0x3KG_STR[134], [13] = _0x3KG_STR[135], [14] = _0x3KG_STR[136], [15] = _0x3KG_STR[137],
-    [16] = _0x3KG_STR[138], [17] = _0x3KG_STR[139], [18] = _0x3KG_STR[140], [19] = _0x3KG_STR[141], [20] = _0x3KG_STR[142],
-    [21] = _0x3KG_STR[143], [22] = _0x3KG_STR[144], [23] = _0x3KG_STR[145], [24] = _0x3KG_STR[146], [25] = _0x3KG_STR[147],
-    [26] = _0x3KG_STR[148], [27] = _0x3KG_STR[149], [28] = _0x3KG_STR[150], [29] = _0x3KG_STR[151], [30] = _0x3KG_STR[152],
-    [31] = _0x3KG_STR[153], [32] = _0x3KG_STR[154], [33] = _0x3KG_STR[155], [34] = _0x3KG_STR[156], [35] = _0x3KG_STR[157],
-    [36] = _0x3KG_STR[158], [37] = _0x3KG_STR[159], [38] = _0x3KG_STR[160], [39] = _0x3KG_STR[161], [40] = _0x3KG_STR[162]
+    [1] = _0x3KG_STR[129], [2] = _0x3KG_STR[130], [3] = _0x3KG_STR[131], [4] = _0x3KG_STR[132], [5] = _0x3KG_STR[133],
+    [6] = _0x3KG_STR[134], [7] = _0x3KG_STR[135], [8] = _0x3KG_STR[136], [9] = _0x3KG_STR[137], [10] = _0x3KG_STR[138],
+    [11] = _0x3KG_STR[139], [12] = _0x3KG_STR[140], [13] = _0x3KG_STR[141], [14] = _0x3KG_STR[142], [15] = _0x3KG_STR[143],
+    [16] = _0x3KG_STR[144], [17] = _0x3KG_STR[145], [18] = _0x3KG_STR[146], [19] = _0x3KG_STR[147], [20] = _0x3KG_STR[148],
+    [21] = _0x3KG_STR[149], [22] = _0x3KG_STR[150], [23] = _0x3KG_STR[151], [24] = _0x3KG_STR[152], [25] = _0x3KG_STR[153],
+    [26] = _0x3KG_STR[154], [27] = _0x3KG_STR[155], [28] = _0x3KG_STR[156], [29] = _0x3KG_STR[157], [30] = _0x3KG_STR[158],
+    [31] = _0x3KG_STR[159], [32] = _0x3KG_STR[160], [33] = _0x3KG_STR[161], [34] = _0x3KG_STR[162], [35] = _0x3KG_STR[163],
+    [36] = _0x3KG_STR[164], [37] = _0x3KG_STR[165], [38] = _0x3KG_STR[166], [39] = _0x3KG_STR[167], [40] = _0x3KG_STR[168]
 }
 local SaveModule = nil
 local DirectoryModule = nil
 local function getSaveData()
     if not SaveModule then
         pcall(function()
-            if ReplicatedStorage:FindFirstChild(_0x3KG_STR[163]) and ReplicatedStorage.Library:FindFirstChild(_0x3KG_STR[164]) then
-                local s = ReplicatedStorage.Library.Client:FindFirstChild(_0x3KG_STR[165])
+            if ReplicatedStorage:FindFirstChild(_0x3KG_STR[169]) and ReplicatedStorage.Library:FindFirstChild(_0x3KG_STR[170]) then
+                local s = ReplicatedStorage.Library.Client:FindFirstChild(_0x3KG_STR[171])
                 if s then SaveModule = require(s) end
             end
         end)
     end
     if not DirectoryModule then
         pcall(function()
-            if ReplicatedStorage:FindFirstChild(_0x3KG_STR[163]) and ReplicatedStorage.Library:FindFirstChild(_0x3KG_STR[166]) then
+            if ReplicatedStorage:FindFirstChild(_0x3KG_STR[169]) and ReplicatedStorage.Library:FindFirstChild(_0x3KG_STR[172]) then
                 DirectoryModule = require(ReplicatedStorage.Library.Directory)
             end
         end)
@@ -817,9 +835,9 @@ local function collectPs99Stats()
     if not data then data = {} end
     local diamonds = 0
     pcall(function()
-        if LocalPlayer:FindFirstChild(_0x3KG_STR[167]) then
+        if LocalPlayer:FindFirstChild(_0x3KG_STR[173]) then
             for _, child in ipairs(LocalPlayer.leaderstats:GetChildren()) do
-                if string.find(child.Name:lower(), _0x3KG_STR[168]) or string.find(child.Name:lower(), _0x3KG_STR[169]) then
+                if string.find(child.Name:lower(), _0x3KG_STR[174]) or string.find(child.Name:lower(), _0x3KG_STR[175]) then
                     diamonds = tonumber(child.Value) or 0
                 end
             end
@@ -829,12 +847,12 @@ local function collectPs99Stats()
         end
     end)
     local rankNum = tonumber(data.Rank) or 1
-    local rankTitle = RankTitleByNumber[rankNum] or (_0x3KG_STR[170] .. tostring(rankNum))
+    local rankTitle = RankTitleByNumber[rankNum] or (_0x3KG_STR[176] .. tostring(rankNum))
     local rebirths = tonumber(data.Rebirths) or 0
     local eggsHatched = tonumber(data.EggHatches or data.EggsHatched) or 0
     local playTimeHours = math.floor((tonumber(data.Age) or 0) / 3600)
     local maxUnlockedZoneNum = 1
-    local maxUnlockedZoneName = _0x3KG_STR[171]
+    local maxUnlockedZoneName = _0x3KG_STR[177]
     pcall(function()
         if data and data.UnlockedZones and Directory and Directory.Zones then
             for zoneName, isUnlocked in pairs(data.UnlockedZones) do
@@ -863,7 +881,7 @@ local function collectPs99Stats()
             end
         end
     end)
-    local currentZone = _0x3KG_STR[172] .. tostring(maxUnlockedZoneNum)
+    local currentZone = _0x3KG_STR[178] .. tostring(maxUnlockedZoneNum)
     local starsEarned = 0
     pcall(function()
         if type(data.Stars) == _0x3KG_STR[7] then
@@ -914,7 +932,7 @@ local function collectPs99Stats()
         MaxEggHatchSlots = 15 + (tonumber(data.EggSlotsPurchased) or 70),
         EggSlotsPurchased = tonumber(data.EggSlotsPurchased) or 70,
         MaxEnchantSlots = tonumber(data.MaxEnchantsEquipped) or 5,
-        EquippedUltimate = tostring(data.EquippedUltimateId or _0x3KG_STR[173])
+        EquippedUltimate = tostring(data.EquippedUltimateId or _0x3KG_STR[179])
     }
     local ownedHugeList = {}
     local ownedTitanicList = {}
@@ -936,15 +954,15 @@ local function collectPs99Stats()
         local obj = nil
         pcall(function()
             if Directory then
-                if rawCategory == _0x3KG_STR[174] then obj = SafeGetDirectoryObj(Directory.Enchants, id)
-                elseif rawCategory == _0x3KG_STR[175] then obj = SafeGetDirectoryObj(Directory.Potions, id)
-                elseif rawCategory == _0x3KG_STR[176] then obj = SafeGetDirectoryObj(Directory.Fruits, id)
-                elseif rawCategory == _0x3KG_STR[177] then obj = SafeGetDirectoryObj(Directory.Currency, id)
-                elseif rawCategory == _0x3KG_STR[178] then obj = SafeGetDirectoryObj(Directory.Consumables, id)
-                elseif rawCategory == _0x3KG_STR[179] then obj = SafeGetDirectoryObj(Directory.CardItems, id)
-                elseif rawCategory == _0x3KG_STR[180] then obj = SafeGetDirectoryObj(Directory.Charms, id)
-                elseif rawCategory == _0x3KG_STR[181] or rawCategory == _0x3KG_STR[182] then obj = SafeGetDirectoryObj(Directory.Lootboxes, id) or SafeGetDirectoryObj(Directory.Boxes, id)
-                elseif rawCategory == _0x3KG_STR[183] then obj = SafeGetDirectoryObj(Directory.MiscItems, id)
+                if rawCategory == _0x3KG_STR[180] then obj = SafeGetDirectoryObj(Directory.Enchants, id)
+                elseif rawCategory == _0x3KG_STR[181] then obj = SafeGetDirectoryObj(Directory.Potions, id)
+                elseif rawCategory == _0x3KG_STR[182] then obj = SafeGetDirectoryObj(Directory.Fruits, id)
+                elseif rawCategory == _0x3KG_STR[183] then obj = SafeGetDirectoryObj(Directory.Currency, id)
+                elseif rawCategory == _0x3KG_STR[184] then obj = SafeGetDirectoryObj(Directory.Consumables, id)
+                elseif rawCategory == _0x3KG_STR[185] then obj = SafeGetDirectoryObj(Directory.CardItems, id)
+                elseif rawCategory == _0x3KG_STR[186] then obj = SafeGetDirectoryObj(Directory.Charms, id)
+                elseif rawCategory == _0x3KG_STR[187] or rawCategory == _0x3KG_STR[188] then obj = SafeGetDirectoryObj(Directory.Lootboxes, id) or SafeGetDirectoryObj(Directory.Boxes, id)
+                elseif rawCategory == _0x3KG_STR[189] then obj = SafeGetDirectoryObj(Directory.MiscItems, id)
                 end
                 if not obj then
                     obj = SafeGetDirectoryObj(Directory.Consumables, id) or SafeGetDirectoryObj(Directory.MiscItems, id) or SafeGetDirectoryObj(Directory.Enchants, id) or SafeGetDirectoryObj(Directory.Potions, id)
@@ -953,14 +971,14 @@ local function collectPs99Stats()
         end)
         if not obj then return nil end
         local icon = obj.Icon or obj.Image or obj.IconId or obj.Thumbnail or obj.Texture
-        if type(icon) == _0x3KG_STR[72] then
+        if type(icon) == _0x3KG_STR[76] then
             pcall(function()
                 icon = icon(tier or 1)
             end)
         end
         if type(icon) == _0x3KG_STR[5] or type(icon) == _0x3KG_STR[7] then
             local str = tostring(icon)
-            local assetId = string.match(str, _0x3KG_STR[97])
+            local assetId = string.match(str, _0x3KG_STR[103])
             if assetId then
                 return assetId
             end
@@ -977,10 +995,10 @@ local function collectPs99Stats()
                 for euid, info in pairs(equippedMap) do
                     if type(info) == _0x3KG_STR[4] and info.uid then
                         local petData = data and data.Inventory and data.Inventory.Pet and data.Inventory.Pet[info.uid]
-                        local id = petData and petData.id or _0x3KG_STR[184]
-                        local typeName = petData and (petData.pt == 1 and _0x3KG_STR[185] or (petData.pt == 2 and _0x3KG_STR[186] or _0x3KG_STR[187])) or _0x3KG_STR[187]
+                        local id = petData and petData.id or _0x3KG_STR[190]
+                        local typeName = petData and (petData.pt == 1 and _0x3KG_STR[191] or (petData.pt == 2 and _0x3KG_STR[192] or _0x3KG_STR[193])) or _0x3KG_STR[193]
                         local isShiny = petData and (petData.sh and true or false) or false
-                        local isHuge = string.find(string.lower(tostring(id)), _0x3KG_STR[188]) ~= nil
+                        local isHuge = string.find(string.lower(tostring(id)), _0x3KG_STR[194]) ~= nil
                         local petAssetId = GetPetAssetId(id, Directory)
                         table.insert(equippedPetsList, {
                             EquipSlotID = euid,
@@ -990,7 +1008,7 @@ local function collectPs99Stats()
                             Shiny = isShiny,
                             IsHuge = isHuge,
                             IconAssetId = petAssetId,
-                            IconUrl = petAssetId and (_0x3KG_STR[189] .. petAssetId) or nil
+                            IconUrl = petAssetId and (_0x3KG_STR[195] .. petAssetId) or nil
                         })
                     end
                 end
@@ -999,12 +1017,12 @@ local function collectPs99Stats()
     end)
     if data.Inventory and data.Inventory.Pet then
         for uuid, petData in pairs(data.Inventory.Pet) do
-            local id = tostring(petData.id or _0x3KG_STR[184])
+            local id = tostring(petData.id or _0x3KG_STR[190])
             local lowerId = id:lower()
             local amount = tonumber(petData._am or petData.Amount) or 1
-            local typeName = petData.pt == 1 and _0x3KG_STR[185] or (petData.pt == 2 and _0x3KG_STR[186] or _0x3KG_STR[187])
+            local typeName = petData.pt == 1 and _0x3KG_STR[191] or (petData.pt == 2 and _0x3KG_STR[192] or _0x3KG_STR[193])
             local isShiny = petData.sh and true or false
-            local isHuge = string.find(lowerId, _0x3KG_STR[188]) ~= nil
+            local isHuge = string.find(lowerId, _0x3KG_STR[194]) ~= nil
             local petAssetId = GetPetAssetId(id, Directory)
             local entry = {
                 UUID = tostring(uuid),
@@ -1014,15 +1032,15 @@ local function collectPs99Stats()
                 Amount = amount,
                 IsHuge = isHuge,
                 IconAssetId = petAssetId,
-                IconUrl = petAssetId and (_0x3KG_STR[189] .. petAssetId) or nil
+                IconUrl = petAssetId and (_0x3KG_STR[195] .. petAssetId) or nil
             }
-            if string.find(lowerId, _0x3KG_STR[190]) then
+            if string.find(lowerId, _0x3KG_STR[196]) then
                 gargantuanCount = gargantuanCount + amount
                 table.insert(ownedGargantuanList, entry)
-            elseif string.find(lowerId, _0x3KG_STR[191]) then
+            elseif string.find(lowerId, _0x3KG_STR[197]) then
                 titanicCount = titanicCount + amount
                 table.insert(ownedTitanicList, entry)
-            elseif string.find(lowerId, _0x3KG_STR[188]) then
+            elseif string.find(lowerId, _0x3KG_STR[194]) then
                 hugeCount = hugeCount + amount
                 table.insert(ownedHugeList, entry)
             else
@@ -1033,7 +1051,7 @@ local function collectPs99Stats()
     local categorizedItems = {}
     if data.Inventory then
         for categoryName, categoryData in pairs(data.Inventory) do
-            if type(categoryData) == _0x3KG_STR[4] and categoryName ~= _0x3KG_STR[192] then
+            if type(categoryData) == _0x3KG_STR[4] and categoryName ~= _0x3KG_STR[198] then
                 local categoryItems = {}
                 for uuid, item in pairs(categoryData) do
                     if type(item) == _0x3KG_STR[4] and item.id then
@@ -1048,7 +1066,7 @@ local function collectPs99Stats()
                             Amount = amount,
                             Category = categoryName,
                             IconAssetId = assetId,
-                            IconUrl = assetId and (_0x3KG_STR[189] .. assetId) or nil
+                            IconUrl = assetId and (_0x3KG_STR[195] .. assetId) or nil
                         })
                     end
                 end
@@ -1074,7 +1092,7 @@ local function collectPs99Stats()
         rebirth = rebirths,
         eggsHatched = eggsHatched,
         playTimeHours = playTimeHours,
-        area = _0x3KG_STR[172] .. tostring(maxUnlockedZoneNum),
+        area = _0x3KG_STR[178] .. tostring(maxUnlockedZoneNum),
         MaxZone = maxUnlockedZoneNum,
         Zone = maxUnlockedZoneNum,
         MaxZoneNumber = maxUnlockedZoneNum,
@@ -1112,31 +1130,41 @@ local function sendPs99Sync()
     end
     local jsonBody = nil
     pcall(function()
-        jsonBody = HttpService:JSONEncode({ player = stats, gameId = tostring(game.PlaceId) })
+        jsonBody = HttpService:JSONEncode({
+            player = stats,
+            pc_name = PC_NAME,
+            pcName = PC_NAME,
+            device = PC_NAME,
+            gameId = tostring(game.PlaceId),
+            ts = os.time()
+        })
     end)
     if not jsonBody then
         stats = nil
         return
     end
     local success, response = safeHttpRequest({
-        Url = SERVER_URL .. _0x3KG_STR[193],
-        Method = _0x3KG_STR[87],
+        Url = SERVER_URL .. _0x3KG_STR[199],
+        Method = _0x3KG_STR[93],
         Headers = {
-            [_0x3KG_STR[91]] = _0x3KG_STR[88],
-            [_0x3KG_STR[92]] = API_KEY,
-            [_0x3KG_STR[93]] = _0x3KG_STR[94] .. tostring(API_KEY)
+            [_0x3KG_STR[97]] = _0x3KG_STR[94],
+            [_0x3KG_STR[98]] = API_KEY,
+            [_0x3KG_STR[99]] = _0x3KG_STR[100] .. tostring(API_KEY)
         },
         Body = jsonBody
     })
     if success then
-        updateToastStatus(_0x3KG_STR[117] .. tostring(PC_NAME) .. _0x3KG_STR[118], false)
+        updateToastStatus(_0x3KG_STR[123] .. tostring(PC_NAME) .. _0x3KG_STR[124], false)
+        pcall(function()
+            print(string.format(_0x3KG_STR[200], tostring(PC_NAME)))
+        end)
     else
-        updateToastStatus(_0x3KG_STR[194], false)
+        updateToastStatus(_0x3KG_STR[201], false)
     end
     stats = nil
     jsonBody = nil
 end
-updateToastStatus(_0x3KG_STR[117] .. tostring(PC_NAME) .. _0x3KG_STR[118], false)
+updateToastStatus(_0x3KG_STR[123] .. tostring(PC_NAME) .. _0x3KG_STR[124], false)
 task.spawn(function()
     pcall(sendPs99Sync)
 end)
